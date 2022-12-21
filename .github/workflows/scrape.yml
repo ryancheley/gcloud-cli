@@ -19,8 +19,7 @@ jobs:
         git config user.email "actions@users.noreply.github.com"
     - name: Scrape gcloud
       run: |-
-        cat /etc/lsb-release
-        # sh gcloud.sh
+        sh gcloud.sh
     - name: Commit and push if it changed
       run: |-
         git add -A
