@@ -1,115 +1,115 @@
-[m[1mNAME[m
+NAME
     gcloud - manage Google Cloud resources and developer workflow
 
-[m[1mSYNOPSIS[m
-    [1mgcloud[m [4mGROUP[m | [4mCOMMAND[m [[1m--account[m=[4mACCOUNT[m]
-        [[1m--billing-project[m=[4mBILLING_PROJECT[m] [[1m--configuration[m=[4mCONFIGURATION[m]
-        [[1m--flags-file[m=[4mYAML_FILE[m] [[1m--flatten[m=[[4mKEY[m,...]] [[1m--format[m=[4mFORMAT[m]
-        [[1m--help[m] [[1m--project[m=[4mPROJECT_ID[m] [[1m--quiet[m, [1m-q[m]
-        [[1m--verbosity[m=[4mVERBOSITY[m; default="warning"] [[1m--version[m, [1m-v[m] [[1m-h[m]
-        [[1m--access-token-file[m=[4mACCESS_TOKEN_FILE[m]
-        [[1m--impersonate-service-account[m=[4mSERVICE_ACCOUNT_EMAILS[m] [[1m--log-http[m]
-        [[1m--trace-token[m=[4mTRACE_TOKEN[m] [[1m--no-user-output-enabled[m]
+SYNOPSIS
+    gcloud GROUP | COMMAND [--account=ACCOUNT]
+        [--billing-project=BILLING_PROJECT] [--configuration=CONFIGURATION]
+        [--flags-file=YAML_FILE] [--flatten=[KEY,...]] [--format=FORMAT]
+        [--help] [--project=PROJECT_ID] [--quiet, -q]
+        [--verbosity=VERBOSITY; default="warning"] [--version, -v] [-h]
+        [--access-token-file=ACCESS_TOKEN_FILE]
+        [--impersonate-service-account=SERVICE_ACCOUNT_EMAILS] [--log-http]
+        [--trace-token=TRACE_TOKEN] [--no-user-output-enabled]
 
-[m[1mDESCRIPTION[m
-    The [1mgcloud[m CLI manages authentication, local configuration, developer
+DESCRIPTION
+    The gcloud CLI manages authentication, local configuration, developer
     workflow, and interactions with the Google Cloud APIs.
 
-    For a quick introduction to the [1mgcloud[m CLI, a list of commonly used
-    commands, and a look at how these commands are structured, run [1mgcloud
-    cheat-sheet[m or see the `gcloud` CLI cheat sheet
+    For a quick introduction to the gcloud CLI, a list of commonly used
+    commands, and a look at how these commands are structured, run gcloud
+    cheat-sheet or see the `gcloud` CLI cheat sheet
     (https://cloud.google.com/sdk/docs/cheatsheet).
 
-[m[1mGLOBAL FLAGS[m
-     [1m--account[m=[4mACCOUNT[m
+GLOBAL FLAGS
+     --account=ACCOUNT
         Google Cloud user account to use for invocation. Overrides the default
-        [1mcore/account[m property value for this command invocation.
+        core/account property value for this command invocation.
 
-     [1m--billing-project[m=[4mBILLING_PROJECT[m
+     --billing-project=BILLING_PROJECT
         The Google Cloud project that will be charged quota for operations
-        performed in [1mgcloud[m. If you need to operate on one project, but need
+        performed in gcloud. If you need to operate on one project, but need
         quota against a different project, you can use this flag to specify the
-        billing project. If both [1mbilling/quota_project[m and [1m--billing-project[m
-        are specified, [1m--billing-project[m takes precedence. Run [1m$ gcloud config
-        set --help[m to see more information about [1mbilling/quota_project[m.
+        billing project. If both billing/quota_project and --billing-project
+        are specified, --billing-project takes precedence. Run $ gcloud config
+        set --help to see more information about billing/quota_project.
 
-     [1m--configuration[m=[4mCONFIGURATION[m
+     --configuration=CONFIGURATION
         The configuration to use for this command invocation. For more
-        information on how to use configurations, run: [1mgcloud topic
-        configurations[m. You can also use the CLOUDSDK_ACTIVE_CONFIG_NAME
+        information on how to use configurations, run: gcloud topic
+        configurations. You can also use the CLOUDSDK_ACTIVE_CONFIG_NAME
         environment variable to set the equivalent of this flag for a terminal
         session.
 
-     [1m--flags-file[m=[4mYAML_FILE[m
-        A YAML or JSON file that specifies a [1m--flag[m:[1mvalue[m dictionary. Useful
+     --flags-file=YAML_FILE
+        A YAML or JSON file that specifies a --flag:value dictionary. Useful
         for specifying complex flag values with special characters that work
-        with any command interpreter. Additionally, each [1m--flags-file[m arg is
+        with any command interpreter. Additionally, each --flags-file arg is
         replaced by its constituent flags. See $ gcloud topic flags-file for
         more information.
 
-     [1m--flatten[m=[[4mKEY[m,...]
-        Flatten [4mname[m[] output resource slices in [4mKEY[m into separate records for
+     --flatten=[KEY,...]
+        Flatten name[] output resource slices in KEY into separate records for
         each item in each slice. Multiple keys and slices may be specified.
-        This also flattens keys for [1m--format[m and [1m--filter[m. For example,
-        [1m--flatten=abc.def[m flattens [1mabc.def[].ghi[m references to [1mabc.def.ghi[m. A
-        resource record containing [1mabc.def[][m with N elements will expand to N
+        This also flattens keys for --format and --filter. For example,
+        --flatten=abc.def flattens abc.def[].ghi references to abc.def.ghi. A
+        resource record containing abc.def[] with N elements will expand to N
         records in the flattened output. This allows us to specify what
-        [1mresource-key[m the [1mfilter[m will operate on. This flag interacts with other
-        flags that are applied in this order: [1m--flatten[m, [1m--sort-by[m, [1m--filter[m,
-        [1m--limit[m.
+        resource-key the filter will operate on. This flag interacts with other
+        flags that are applied in this order: --flatten, --sort-by, --filter,
+        --limit.
 
-     [1m--format[m=[4mFORMAT[m
+     --format=FORMAT
         Set the format for printing command output resources. The default is a
         command-specific human-friendly output format. The supported formats
-        are: [1mconfig[m, [1mcsv[m, [1mdefault[m, [1mdiff[m, [1mdisable[m, [1mflattened[m, [1mget[m, [1mjson[m, [1mlist[m,
-        [1mmulti[m, [1mnone[m, [1mobject[m, [1mtable[m, [1mtext[m, [1mvalue[m, [1myaml[m. For more details run $
+        are: config, csv, default, diff, disable, flattened, get, json, list,
+        multi, none, object, table, text, value, yaml. For more details run $
         gcloud topic formats.
 
-     [1m--help[m
+     --help
         Display detailed help.
 
-     [1m--project[m=[4mPROJECT_ID[m
+     --project=PROJECT_ID
         The Google Cloud project ID to use for this invocation. If omitted,
         then the current project is assumed; the current project can be listed
-        using [1mgcloud config list --format='text(core.project)'[m and can be set
-        using [1mgcloud config set project PROJECTID[m.
+        using gcloud config list --format='text(core.project)' and can be set
+        using gcloud config set project PROJECTID.
 
-        [1m--project[m and its fallback [1mcore/project[m property play two roles in the
+        --project and its fallback core/project property play two roles in the
         invocation. It specifies the project of the resource to operate on. It
         also specifies the project for API enablement check, quota, and
         billing. To specify a different project for quota and billing, use
-        [1m--billing-project[m or [1mbilling/quota_project[m property.
+        --billing-project or billing/quota_project property.
 
-     [1m--quiet[m, [1m-q[m
-        Disable all interactive prompts when running [1mgcloud[m commands. If input
+     --quiet, -q
+        Disable all interactive prompts when running gcloud commands. If input
         is required, defaults will be used, or an error will be raised.
 
         Overrides the default core/disable_prompts property value for this
         command invocation. This is equivalent to setting the environment
-        variable [1mCLOUDSDK_CORE_DISABLE_PROMPTS[m to 1.
+        variable CLOUDSDK_CORE_DISABLE_PROMPTS to 1.
 
-     [1m--verbosity[m=[4mVERBOSITY[m; default="warning"
+     --verbosity=VERBOSITY; default="warning"
         Override the default verbosity for this command. Overrides the default
-        [1mcore/verbosity[m property value for this command invocation. [4mVERBOSITY[m
-        must be one of: [1mdebug[m, [1minfo[m, [1mwarning[m, [1merror[m, [1mcritical[m, [1mnone[m.
+        core/verbosity property value for this command invocation. VERBOSITY
+        must be one of: debug, info, warning, error, critical, none.
 
-     [1m--version[m, [1m-v[m
+     --version, -v
         Print version information and exit. This flag is only available at the
         global level.
 
-     [1m-h[m
+     -h
         Print a summary help and exit.
 
-[m[1mOTHER FLAGS[m
-     [1m--access-token-file[m=[4mACCESS_TOKEN_FILE[m
+OTHER FLAGS
+     --access-token-file=ACCESS_TOKEN_FILE
         A file path to read the access token. Use this flag to authenticate
-        [1mgcloud[m with an access token. The credentials of the active account (if
+        gcloud with an access token. The credentials of the active account (if
         exists) will be ignored. The file should only contain an access token
-        with no other information. Overrides the default [1mauth/access_token_file[m
+        with no other information. Overrides the default auth/access_token_file
         property value for this command invocation.
 
-     [1m--impersonate-service-account[m=[4mSERVICE_ACCOUNT_EMAILS[m
-        For this [1mgcloud[m invocation, all API requests will be made as the given
+     --impersonate-service-account=SERVICE_ACCOUNT_EMAILS
+        For this gcloud invocation, all API requests will be made as the given
         service account or target service account in an impersonation
         delegation chain instead of the currently selected account. You can
         specify either a single service account as the impersonator, or a
@@ -119,357 +119,356 @@
 
         In order to make API requests as a service account, your currently
         selected account must have an IAM role that includes the
-        [1miam.serviceAccounts.getAccessToken[m permission for the service account
+        iam.serviceAccounts.getAccessToken permission for the service account
         or accounts.
 
-        The [1mroles/iam.serviceAccountTokenCreator[m role has the
-        [1miam.serviceAccounts.getAccessToken permission[m. You can also create a
+        The roles/iam.serviceAccountTokenCreator role has the
+        iam.serviceAccounts.getAccessToken permission. You can also create a
         custom role.
 
         You can specify a list of service accounts, separated with commas. This
         creates an impersonation delegation chain in which each service account
         delegates its permissions to the next service account in the chain.
         Each service account in the list must have the
-        [1mroles/iam.serviceAccountTokenCreator[m role on the next service account
-        in the list. For example, when [1m--impersonate-service-account=[m
-        [1m[1;4mSERVICE_ACCOUNT_1[1m[m,[1m[1;4mSERVICE_ACCOUNT_2[1m[m, the active account must have the
-        [1mroles/iam.serviceAccountTokenCreator[m role on [1m[1;4mSERVICE_ACCOUNT_1[1m[m, which
-        must have the [1mroles/iam.serviceAccountTokenCreator[m role on
-        [1m[1;4mSERVICE_ACCOUNT_2[1m[m. [1m[1;4mSERVICE_ACCOUNT_1[1m[m is the impersonated service
-        account and [1m[1;4mSERVICE_ACCOUNT_2[1m[m is the delegate.
+        roles/iam.serviceAccountTokenCreator role on the next service account
+        in the list. For example, when --impersonate-service-account=
+        SERVICE_ACCOUNT_1,SERVICE_ACCOUNT_2, the active account must have the
+        roles/iam.serviceAccountTokenCreator role on SERVICE_ACCOUNT_1, which
+        must have the roles/iam.serviceAccountTokenCreator role on
+        SERVICE_ACCOUNT_2. SERVICE_ACCOUNT_1 is the impersonated service
+        account and SERVICE_ACCOUNT_2 is the delegate.
 
-        Overrides the default [1mauth/impersonate_service_account[m property value
+        Overrides the default auth/impersonate_service_account property value
         for this command invocation.
 
-     [1m--log-http[m
+     --log-http
         Log all HTTP server requests and responses to stderr. Overrides the
-        default [1mcore/log_http[m property value for this command invocation.
+        default core/log_http property value for this command invocation.
 
-     [1m--trace-token[m=[4mTRACE_TOKEN[m
+     --trace-token=TRACE_TOKEN
         Token used to route traces of service requests for investigation of
-        issues. Overrides the default [1mcore/trace_token[m property value for this
+        issues. Overrides the default core/trace_token property value for this
         command invocation.
 
-     [1m--user-output-enabled[m
+     --user-output-enabled
         Print user intended output to the console. Overrides the default
-        [1mcore/user_output_enabled[m property value for this command invocation.
-        Use [1m--no-user-output-enabled[m to disable.
+        core/user_output_enabled property value for this command invocation.
+        Use --no-user-output-enabled to disable.
 
-[m[1mGROUPS[m
-    [1m[1;4mGROUP[1m[m is one of the following:
+GROUPS
+    GROUP is one of the following:
 
-     [1maccess-approval[m
+     access-approval
         Manage Access Approval requests and settings.
 
-     [1maccess-context-manager[m
+     access-context-manager
         Manage Access Context Manager resources.
 
-     [1mactive-directory[m
+     active-directory
         Manage Managed Microsoft AD resources.
 
-     [1mai[m
+     ai
         Manage entities in Vertex AI.
 
-     [1mai-platform[m
+     ai-platform
         Manage AI Platform jobs and models.
 
-     [1malloydb[m
+     alloydb
         Create and manage AlloyDB databases.
 
-     [1manthos[m
+     anthos
         Anthos command Group.
 
-     [1mapi-gateway[m
+     api-gateway
         Manage Cloud API Gateway resources.
 
-     [1mapigee[m
+     apigee
         Manage Apigee resources.
 
-     [1mapp[m
+     app
         Manage your App Engine deployments.
 
-     [1martifacts[m
+     artifacts
         Manage Artifact Registry resources.
 
-     [1masset[m
+     asset
         Manage the Cloud Asset Inventory.
 
-     [1massured[m
+     assured
         Read and manipulate Assured Workloads data controls.
 
-     [1mauth[m
+     auth
         Manage oauth2 credentials for the Google Cloud CLI.
 
-     [1mbatch[m
+     batch
         Manage Batch resources.
 
-     [1mbigtable[m
+     bigtable
         Manage your Cloud Bigtable storage.
 
-     [1mbilling[m
+     billing
         Manage billing accounts and associate them with projects.
 
-     [1mbms[m
+     bms
         Manage Bare Metal Solution resources.
 
-     [1mbuilds[m
+     builds
         Create and manage builds for Google Cloud Build.
 
-     [1mcertificate-manager[m
+     certificate-manager
         Manage SSL certificates for your Google Cloud projects.
 
-     [1mcloud-shell[m
+     cloud-shell
         Manage Google Cloud Shell.
 
-     [1mcomponents[m
+     components
         List, install, update, or remove Google Cloud CLI components.
 
-     [1mcomposer[m
+     composer
         Create and manage Cloud Composer Environments.
 
-     [1mcompute[m
+     compute
         Create and manipulate Compute Engine resources.
 
-     [1mconfig[m
+     config
         View and edit Google Cloud CLI properties.
 
-     [1mcontainer[m
+     container
         Deploy and manage clusters of machines for running containers.
 
-     [1mdata-catalog[m
+     data-catalog
         Manage Data Catalog resources.
 
-     [1mdatabase-migration[m
+     database-migration
         Manage Database Migration Service resources.
 
-     [1mdataflow[m
+     dataflow
         Manage Google Cloud Dataflow resources.
 
-     [1mdataplex[m
+     dataplex
         Manage Dataplex resources.
 
-     [1mdataproc[m
+     dataproc
         Create and manage Google Cloud Dataproc clusters and jobs.
 
-     [1mdatastore[m
+     datastore
         Manage your Cloud Datastore resources.
 
-     [1mdatastream[m
+     datastream
         Manage Cloud Datastream resources.
 
-     [1mdebug[m
+     debug
         Commands for interacting with the Cloud Debugger.
 
-     [1mdeploy[m
+     deploy
         Create and manage Google Cloud Deploy resources.
 
-     [1mdeployment-manager[m
+     deployment-manager
         Manage deployments of cloud resources.
 
-     [1mdns[m
+     dns
         Manage your Cloud DNS managed-zones and record-sets.
 
-     [1mdomains[m
+     domains
         Manage domains for your Google Cloud projects.
 
-     [1medge-cache[m
+     edge-cache
         Manage Media CDN resources.
 
-     [1medge-cloud[m
+     edge-cloud
         Manage edge-cloud resources.
 
-     [1memulators[m
+     emulators
         Set up your local development environment using emulators.
 
-     [1mendpoints[m
+     endpoints
         Create, enable and manage API services.
 
-     [1messential-contacts[m
+     essential-contacts
         Manage Essential Contacts.
 
-     [1meventarc[m
+     eventarc
         Manage Eventarc resources.
 
-     [1mfilestore[m
+     filestore
         Create and manipulate Filestore resources.
 
-     [1mfirebase[m
+     firebase
         Work with Google Firebase.
 
-     [1mfirestore[m
+     firestore
         Manage your Cloud Firestore resources.
 
-     [1mfunctions[m
+     functions
         Manage Google Cloud Functions.
 
-     [1mgame[m
+     game
         Managed Cloud Game Services.
 
-     [1mhealthcare[m
+     healthcare
         Manage Cloud Healthcare resources.
 
-     [1miam[m
+     iam
         Manage IAM service accounts and keys.
 
-     [1miap[m
+     iap
         Manage IAP policies.
 
-     [1midentity[m
+     identity
         Manage Cloud Identity Groups and Memberships resources.
 
-     [1mids[m
+     ids
         Manage Cloud IDS.
 
-     [1miot[m
+     iot
         Manage Cloud IoT resources.
 
-     [1mkms[m
+     kms
         Manage cryptographic keys in the cloud.
 
-     [1mlogging[m
+     logging
         Manage Cloud Logging.
 
-     [1mmemcache[m
+     memcache
         Manage Cloud Memorystore Memcached resources.
 
-     [1mmetastore[m
+     metastore
         Manage Dataproc Metastore resources.
 
-     [1mml[m
+     ml
         Use Google Cloud machine learning capabilities.
 
-     [1mml-engine[m
+     ml-engine
         Manage AI Platform jobs and models.
 
-     [1mmonitoring[m
+     monitoring
         Manage Cloud Monitoring dashboards.
 
-     [1mnetwork-connectivity[m
+     network-connectivity
         Manage Network Connectivity Center resources.
 
-     [1mnetwork-management[m
+     network-management
         Manage Network Management resources.
 
-     [1mnetwork-security[m
+     network-security
         Manage Network Security resources.
 
-     [1mnetwork-services[m
+     network-services
         Manage Network Services resources.
 
-     [1mnotebooks[m
+     notebooks
         Notebooks Command Group.
 
-     [1morg-policies[m
+     org-policies
         Create and manage Organization Policies.
 
-     [1morganizations[m
+     organizations
         Create and manage Google Cloud Platform Organizations.
 
-     [1mpolicy-intelligence[m
+     policy-intelligence
         A platform to help better understand, use and manage policies at scale.
 
-     [1mpolicy-troubleshoot[m
+     policy-troubleshoot
         Troubleshoot Google Cloud Platform policies.
 
-     [1mprivateca[m
+     privateca
         Manage private Certificate Authorities on Google Cloud.
 
-     [1mprojects[m
+     projects
         Create and manage project access policies.
 
-     [1mpubsub[m
+     pubsub
         Manage Cloud Pub/Sub topics, subscriptions, and snapshots.
 
-     [1mrecaptcha[m
+     recaptcha
         Manage reCAPTCHA Enterprise Keys.
 
-     [1mrecommender[m
+     recommender
         Manage Cloud recommendations and recommendation rules.
 
-     [1mredis[m
+     redis
         Manage Cloud Memorystore Redis resources.
 
-     [1mresource-manager[m
+     resource-manager
         Manage Cloud Resources.
 
-     [1mresource-settings[m
+     resource-settings
         Create and manage Resource Settings.
 
-     [1mrun[m
+     run
         Manage your Cloud Run applications.
 
-     [1mscc[m
+     scc
         Manage Cloud SCC resources.
 
-     [1mscheduler[m
+     scheduler
         Manage Cloud Scheduler jobs and schedules.
 
-     [1msecrets[m
+     secrets
         Manage secrets on Google Cloud.
 
-     [1mservice-directory[m
+     service-directory
         Command groups for Service Directory.
 
-     [1mservices[m
+     services
         List, enable and disable APIs and services.
 
-     [1msource[m
+     source
         Cloud git repository commands.
 
-     [1mspanner[m
+     spanner
         Command groups for Cloud Spanner.
 
-     [1msql[m
+     sql
         Create and manage Google Cloud SQL databases.
 
-     [1mstorage[m
+     storage
         Create and manage Cloud Storage buckets and objects.
 
-     [1mtasks[m
+     tasks
         Manage Cloud Tasks queues and tasks.
 
-     [1mtopic[m
+     topic
         gcloud supplementary help.
 
-     [1mtranscoder[m
+     transcoder
         Manage Transcoder jobs and job templates.
 
-     [1mtransfer[m
+     transfer
         Manage Transfer Service jobs, operations, and agents.
 
-     [1mvmware[m
+     vmware
         Manage Google Cloud VMware Engine resources.
 
-     [1mworkflows[m
+     workflows
         Manage your Cloud Workflows resources.
 
-     [1mworkspace-add-ons[m
+     workspace-add-ons
         Manage Google Workspace Add-ons resources.
 
-[m[1mCOMMANDS[m
-    [1m[1;4mCOMMAND[1m[m is one of the following:
+COMMANDS
+    COMMAND is one of the following:
 
-     [1mcheat-sheet[m
+     cheat-sheet
         Display gcloud cheat sheet.
 
-     [1mdocker[m
-        [1m(DEPRECATED)[m Enable Docker CLI access to Google Container Registry.
+     docker
+        (DEPRECATED) Enable Docker CLI access to Google Container Registry.
 
-     [1mfeedback[m
+     feedback
         Provide feedback to the Google Cloud CLI team.
 
-     [1mhelp[m
+     help
         Search gcloud help text.
 
-     [1minfo[m
+     info
         Display information about the current gcloud environment.
 
-     [1minit[m
+     init
         Initialize or reinitialize gcloud.
 
-     [1msurvey[m
+     survey
         Invoke a customer satisfaction survey for Google Cloud CLI.
 
-     [1mversion[m
+     version
         Print version information for Google Cloud CLI components.
-[m

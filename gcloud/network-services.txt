@@ -1,0 +1,40 @@
+NAME
+    gcloud network-services - manage Network Services resources
+
+SYNOPSIS
+    gcloud network-services GROUP [GCLOUD_WIDE_FLAG ...]
+
+DESCRIPTION
+    Manage Network Services resources.
+
+GCLOUD WIDE FLAGS
+    These flags are available to all commands: --help.
+
+    Run $ gcloud help for details.
+
+GROUPS
+    GROUP is one of the following:
+
+     endpoint-policies
+        Manage Network Services EndpointPolicies.
+
+     gateways
+        Manage Network Services Gateways.
+
+     grpc-routes
+        Manage Network Services GrpcRoutes.
+
+     http-routes
+        Manage Network Services HttpRoutes.
+
+     meshes
+        Manage Network Services Meshes.
+
+     service-bindings
+        Manage Network Services Bindings.
+
+     tcp-routes
+        Manage Network Services TcpRoutes.
+
+     tls-routes
+        Manage Network Services TlsRoutes.

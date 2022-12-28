@@ -1,0 +1,34 @@
+NAME
+    gcloud network-connectivity - manage Network Connectivity Center resources
+
+SYNOPSIS
+    gcloud network-connectivity GROUP [GCLOUD_WIDE_FLAG ...]
+
+DESCRIPTION
+    Manage Network Connectivity Center resources.
+
+GCLOUD WIDE FLAGS
+    These flags are available to all commands: --help.
+
+    Run $ gcloud help for details.
+
+GROUPS
+    GROUP is one of the following:
+
+     hubs
+        Manage Network Connectivity Center hubs.
+
+     internal-ranges
+        Manage internal ranges.
+
+     locations
+        Get information about supported Network Connectivity Center locations.
+
+     operations
+        Manage Network Connectivity Center operations.
+
+     policy-based-routes
+        Manage Policy Based Routes.
+
+     spokes
+        Manage Network Connectivity Center spokes.

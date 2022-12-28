@@ -1,0 +1,26 @@
+NAME
+    gcloud resource-manager - manage Cloud Resources
+
+SYNOPSIS
+    gcloud resource-manager GROUP [GCLOUD_WIDE_FLAG ...]
+
+DESCRIPTION
+    Commands to query and update your Cloud Organizations, Folders, and
+    Projects.
+
+GCLOUD WIDE FLAGS
+    These flags are available to all commands: --help.
+
+    Run $ gcloud help for details.
+
+GROUPS
+    GROUP is one of the following:
+
+     folders
+        Manage Cloud Folders.
+
+     org-policies
+        Manage Org Policies.
+
+     tags
+        Create and manipulate tag keys, values and bindings.

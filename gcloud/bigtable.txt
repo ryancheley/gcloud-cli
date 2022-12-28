@@ -1,0 +1,34 @@
+NAME
+    gcloud bigtable - manage your Cloud Bigtable storage
+
+SYNOPSIS
+    gcloud bigtable GROUP [GCLOUD_WIDE_FLAG ...]
+
+DESCRIPTION
+    Manage your Cloud Bigtable storage.
+
+GCLOUD WIDE FLAGS
+    These flags are available to all commands: --help.
+
+    Run $ gcloud help for details.
+
+GROUPS
+    GROUP is one of the following:
+
+     app-profiles
+        Manage Cloud Bigtable app profiles.
+
+     backups
+        Manage Cloud Bigtable backups.
+
+     clusters
+        Manage Cloud Bigtable clusters.
+
+     hot-tablets
+        Manage Cloud Bigtable hot tablets.
+
+     instances
+        Manage Cloud Bigtable instances.
+
+     operations
+        Manage Cloud Bigtable operations.
