@@ -19,12 +19,12 @@ jobs:
         git config user.email "actions@users.noreply.github.com"
     - name: Scrape gcloud
       run: |-
-        apt update && apt upgrade
-        apt install curl -y
-        apt-get install apt-transport-https ca-certificates gnupg -y
-        echo "deb https://packages.cloud.google.com/apt cloud-sdk main" | tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
-        curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
-        apt update && apt install google-cloud-cli -y
+        sudo apt update && sudo apt upgrade
+        sudo apt install curl -y
+        sudo apt-get install apt-transport-https ca-certificates gnupg -y
+        echo "deb https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+        curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+        sudo apt update && sudo apt install google-cloud-cli -y
     - name: Commit and push if it changed
       run: |-
         git add -A
