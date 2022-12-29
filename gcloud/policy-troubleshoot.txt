@@ -19,3 +19,11 @@ COMMANDS
 
      iam
         Troubleshoot the IAM Policy.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha policy-troubleshoot
+
+        $ gcloud beta policy-troubleshoot
+

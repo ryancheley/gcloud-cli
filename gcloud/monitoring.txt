@@ -20,3 +20,11 @@ GROUPS
 
      dashboards
         Manage Cloud Monitoring dashboards.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha monitoring
+
+        $ gcloud beta monitoring
+

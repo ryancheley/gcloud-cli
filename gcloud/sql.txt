@@ -68,3 +68,11 @@ COMMANDS
 
      reschedule-maintenance
         Reschedule a Cloud SQL instance's maintenance.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha sql
+
+        $ gcloud beta sql
+

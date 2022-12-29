@@ -32,3 +32,9 @@ GROUPS
 
      zones
         Manage Dataplex Zone resources.
+
+NOTES
+    This variant is also available:
+
+        $ gcloud alpha dataplex
+

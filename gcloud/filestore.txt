@@ -41,3 +41,11 @@ GROUPS
 
      zones
         List zones where Filestore is available.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha filestore
+
+        $ gcloud beta filestore
+

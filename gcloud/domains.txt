@@ -36,3 +36,11 @@ COMMANDS
 
      verify
         Verifies a domain via an in-browser workflow.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha domains
+
+        $ gcloud beta domains
+

@@ -47,3 +47,9 @@ GROUPS
 
      services
         Interact with and manage EdgeCacheService resources.
+
+NOTES
+    This variant is also available:
+
+        $ gcloud alpha edge-cache
+

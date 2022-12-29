@@ -63,3 +63,11 @@ COMMANDS
 
      mac-verify
         Verify a user signature file using a MAC key version.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha kms
+
+        $ gcloud beta kms
+

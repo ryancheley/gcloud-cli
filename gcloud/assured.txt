@@ -20,3 +20,11 @@ GROUPS
 
      workloads
         Read and manipulate Assured Workloads resources.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha assured
+
+        $ gcloud beta assured
+

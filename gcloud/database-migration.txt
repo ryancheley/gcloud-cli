@@ -23,3 +23,9 @@ GROUPS
 
      operations
         Manage Database Migration Service operations.
+
+NOTES
+    This variant is also available:
+
+        $ gcloud alpha database-migration
+

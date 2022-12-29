@@ -23,3 +23,11 @@ GROUPS
 
      peerings
         Managed Microsoft AD peerings.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha active-directory
+
+        $ gcloud beta active-directory
+

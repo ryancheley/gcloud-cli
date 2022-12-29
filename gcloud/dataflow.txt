@@ -35,3 +35,11 @@ GROUPS
 
      sql
         A group of subcommands for working with Dataflow SQL.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha dataflow
+
+        $ gcloud beta dataflow
+

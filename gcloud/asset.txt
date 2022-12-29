@@ -60,3 +60,11 @@ COMMANDS
      search-all-resources
         Searches all Cloud resources within the specified accessible scope,
         such as a project, folder or organization.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha asset
+
+        $ gcloud beta asset
+

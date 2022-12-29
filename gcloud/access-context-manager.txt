@@ -26,3 +26,11 @@ GROUPS
 
      policies
         Manage Access Context Manager policies.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha access-context-manager
+
+        $ gcloud beta access-context-manager
+

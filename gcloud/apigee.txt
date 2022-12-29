@@ -53,3 +53,11 @@ GROUPS
 
      products
         Manage Apigee API products.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha apigee
+
+        $ gcloud beta apigee
+

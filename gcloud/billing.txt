@@ -28,3 +28,11 @@ GROUPS
 
      budgets
         Manage the budgets of your billing accounts.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha billing
+
+        $ gcloud beta billing
+

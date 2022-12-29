@@ -45,3 +45,11 @@ COMMANDS
 
      predict
         Run AI Platform online prediction.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha ml-engine
+
+        $ gcloud beta ml-engine
+

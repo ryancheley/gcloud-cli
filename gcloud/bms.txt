@@ -29,3 +29,9 @@ GROUPS
 
      volumes
         Manage bare metal volumes in Bare Metal Solution.
+
+NOTES
+    This variant is also available:
+
+        $ gcloud alpha bms
+

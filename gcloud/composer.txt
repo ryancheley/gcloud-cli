@@ -33,3 +33,11 @@ GROUPS
 
      operations
         Manage Cloud Composer operations.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha composer
+
+        $ gcloud beta composer
+

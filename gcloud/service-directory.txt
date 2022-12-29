@@ -26,3 +26,11 @@ GROUPS
 
      services
         Manage Service Directory services.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha service-directory
+
+        $ gcloud beta service-directory
+

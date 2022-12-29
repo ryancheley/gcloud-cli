@@ -51,3 +51,11 @@ COMMANDS
 
      list-testable-permissions
         List IAM testable permissions for a resource.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha iam
+
+        $ gcloud beta iam
+

@@ -19,3 +19,11 @@ GROUPS
 
      test
         Interact with Firebase Test Lab.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha firebase
+
+        $ gcloud beta firebase
+

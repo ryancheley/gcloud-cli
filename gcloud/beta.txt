@@ -1,8 +1,8 @@
 NAME
-    gcloud - manage Google Cloud resources and developer workflow
+    gcloud beta - beta versions of gcloud commands
 
 SYNOPSIS
-    gcloud GROUP | COMMAND [--account=ACCOUNT]
+    gcloud beta GROUP | COMMAND [--account=ACCOUNT]
         [--billing-project=BILLING_PROJECT] [--configuration=CONFIGURATION]
         [--flags-file=YAML_FILE] [--flatten=[KEY,...]] [--format=FORMAT]
         [--help] [--project=PROJECT_ID] [--quiet, -q]
@@ -12,13 +12,7 @@ SYNOPSIS
         [--trace-token=TRACE_TOKEN] [--no-user-output-enabled]
 
 DESCRIPTION
-    The gcloud CLI manages authentication, local configuration, developer
-    workflow, and interactions with the Google Cloud APIs.
-
-    For a quick introduction to the gcloud CLI, a list of commonly used
-    commands, and a look at how these commands are structured, run gcloud
-    cheat-sheet or see the `gcloud` CLI cheat sheet
-    (https://cloud.google.com/sdk/docs/cheatsheet).
+    (BETA) Beta versions of gcloud commands.
 
 GLOBAL FLAGS
      --account=ACCOUNT
@@ -159,319 +153,300 @@ GROUPS
     GROUP is one of the following:
 
      access-approval
-        Manage Access Approval requests and settings.
+        (BETA) Manage Access Approval requests and settings.
 
      access-context-manager
-        Manage Access Context Manager resources.
+        (BETA) Manage Access Context Manager resources.
 
      active-directory
-        Manage Managed Microsoft AD resources.
+        (BETA) Manage Managed Microsoft AD resources.
 
      ai
-        Manage entities in Vertex AI.
+        (BETA) Manage entities in Vertex AI.
 
      ai-platform
-        Manage AI Platform jobs and models.
+        (BETA) Manage AI Platform jobs and models.
 
-     alpha
-        (ALPHA) Alpha versions of gcloud commands.
+     alloydb
+        (BETA) Create and manage AlloyDB databases.
 
      anthos
-        Anthos command Group.
+        (BETA) Anthos command Group.
 
      api-gateway
-        Manage Cloud API Gateway resources.
+        (BETA) Manage Cloud API Gateway resources.
 
      apigee
-        Manage Apigee resources.
+        (BETA) Manage Apigee resources.
 
      app
-        Manage your App Engine deployments.
+        (BETA) Manage your App Engine deployments.
 
      artifacts
-        Manage Artifact Registry resources.
+        (BETA) Manage Artifact Registry resources.
 
      asset
-        Manage the Cloud Asset Inventory.
+        (BETA) Manage the Cloud Asset Inventory.
 
      assured
-        Read and manipulate Assured Workloads data controls.
+        (BETA) Read and manipulate Assured Workloads data controls.
 
      auth
-        Manage oauth2 credentials for the Google Cloud CLI.
+        (BETA) Manage oauth2 credentials for the Google Cloud CLI.
 
      batch
-        Manage Batch resources.
+        (BETA) Manage Batch resources.
 
-     beta
-        (BETA) Beta versions of gcloud commands.
+     beyondcorp
+        (BETA) Manage secure access to applications with integrated threat and
+        data protection.
 
      bigtable
-        Manage your Cloud Bigtable storage.
+        (BETA) Manage your Cloud Bigtable storage.
 
      billing
-        Manage billing accounts and associate them with projects.
-
-     bms
-        Manage Bare Metal Solution resources.
+        (BETA) Manage billing accounts and associate them with projects.
 
      builds
-        Create and manage builds for Google Cloud Build.
+        (BETA) Create and manage builds for Google Cloud Build.
 
      certificate-manager
-        Manage SSL certificates for your Google Cloud projects.
+        (BETA) Manage SSL certificates for your Google Cloud projects.
 
      cloud-shell
-        Manage Google Cloud Shell.
+        (BETA) Manage Google Cloud Shell.
 
-     components
-        List, install, update, or remove Google Cloud CLI components.
+     code
+        (BETA) Create and manage a local development environment for Cloud Run.
 
      composer
-        Create and manage Cloud Composer Environments.
+        (BETA) Create and manage Cloud Composer Environments.
 
      compute
-        Create and manipulate Compute Engine resources.
+        (BETA) Create and manipulate Compute Engine resources.
 
      config
-        View and edit Google Cloud CLI properties.
+        (BETA) View and edit Google Cloud CLI properties.
 
      container
-        Deploy and manage clusters of machines for running containers.
+        (BETA) Deploy and manage clusters of machines for running containers.
 
      data-catalog
-        Manage Data Catalog resources.
+        (BETA) Manage Data Catalog resources.
 
-     database-migration
-        Manage Database Migration Service resources.
+     data-fusion
+        (BETA) Create and manage Cloud Data Fusion Instances.
 
      dataflow
-        Manage Google Cloud Dataflow resources.
+        (BETA) Manage Google Cloud Dataflow resources.
 
-     dataplex
-        Manage Dataplex resources.
+     datapipelines
+        (BETA) Manage Data Pipelines resources.
 
      dataproc
-        Create and manage Google Cloud Dataproc clusters and jobs.
+        (BETA) Create and manage Google Cloud Dataproc clusters and jobs.
 
      datastore
-        Manage your Cloud Datastore resources.
+        (BETA) Manage your Cloud Datastore resources.
 
      datastream
-        Manage Cloud Datastream resources.
+        (BETA) Manage Cloud Datastream resources.
 
      debug
-        Commands for interacting with the Cloud Debugger.
+        (BETA) Commands for interacting with the Cloud Debugger.
 
      deploy
-        Create and manage Google Cloud Deploy resources.
+        (BETA) Create and manage Google Cloud Deploy resources.
 
      deployment-manager
-        Manage deployments of cloud resources.
+        (BETA) Manage deployments of cloud resources.
 
      dns
-        Manage your Cloud DNS managed-zones and record-sets.
+        (BETA) Manage your Cloud DNS managed-zones and record-sets.
 
      domains
-        Manage domains for your Google Cloud projects.
-
-     edge-cache
-        Manage Media CDN resources.
-
-     edge-cloud
-        Manage edge-cloud resources.
+        (BETA) Manage domains for your Google Cloud projects.
 
      emulators
-        Set up your local development environment using emulators.
+        (BETA) Set up your local development environment using emulators.
 
      endpoints
-        Create, enable and manage API services.
+        (BETA) Create, enable and manage API services.
+
+     error-reporting
+        (BETA) Manage Stackdriver Error Reporting.
 
      essential-contacts
-        Manage Essential Contacts.
+        (BETA) Manage Essential Contacts.
 
      eventarc
-        Manage Eventarc resources.
+        (BETA) Manage Eventarc resources.
+
+     events
+        (BETA) Manage your Cloud Run for Anthos Events resources.
 
      filestore
-        Create and manipulate Filestore resources.
+        (BETA) Create and manipulate Filestore resources.
 
      firebase
-        Work with Google Firebase.
+        (BETA) Work with Google Firebase.
 
      firestore
-        Manage your Cloud Firestore resources.
+        (BETA) Manage your Cloud Firestore resources.
 
      functions
-        Manage Google Cloud Functions.
+        (BETA) Manage Google Cloud Functions.
 
      game
-        Managed Cloud Game Services.
+        (BETA) Managed Cloud Game Services.
 
      healthcare
-        Manage Cloud Healthcare resources.
+        (BETA) Manage Cloud Healthcare resources.
 
      iam
-        Manage IAM service accounts and keys.
+        (BETA) Manage IAM service accounts and keys.
 
      iap
-        Manage IAP policies.
+        (BETA) Manage IAP policies.
 
      identity
-        Manage Cloud Identity Groups and Memberships resources.
+        (BETA) Manage Cloud Identity Groups and Memberships resources.
 
      ids
-        Manage Cloud IDS.
+        (BETA) Manage Cloud IDS.
 
      iot
-        Manage Cloud IoT resources.
+        (BETA) Manage Cloud IoT resources.
 
      kms
-        Manage cryptographic keys in the cloud.
+        (BETA) Manage cryptographic keys in the cloud.
+
+     lifesciences
+        (BETA) Manage Cloud Life Sciences resources.
 
      logging
-        Manage Cloud Logging.
+        (BETA) Manage Cloud Logging.
 
      memcache
-        Manage Cloud Memorystore Memcached resources.
+        (BETA) Manage Cloud Memorystore Memcached resources.
 
      metastore
-        Manage Dataproc Metastore resources.
+        (BETA) Manage Dataproc Metastore resources.
 
      ml
-        Use Google Cloud machine learning capabilities.
+        (BETA) Use Google Cloud machine learning capabilities.
 
      ml-engine
-        Manage AI Platform jobs and models.
+        (BETA) Manage AI Platform jobs and models.
 
      monitoring
-        Manage Cloud Monitoring dashboards.
-
-     network-connectivity
-        Manage Network Connectivity Center resources.
+        (BETA) Manage Cloud Monitoring dashboards and notification channels.
 
      network-management
-        Manage Network Management resources.
+        (BETA) Manage Network Management resources.
 
      network-security
-        Manage Network Security resources.
+        (BETA) Manage Network Security resources.
 
      network-services
-        Manage Network Services resources.
+        (BETA) Manage Network Services resources.
 
      notebooks
-        Notebooks Command Group.
-
-     org-policies
-        Create and manage Organization Policies.
+        (BETA) Notebooks Command Group.
 
      organizations
-        Create and manage Google Cloud Platform Organizations.
-
-     policy-intelligence
-        A platform to help better understand, use and manage policies at scale.
+        (BETA) Create and manage Google Cloud Platform Organizations.
 
      policy-troubleshoot
-        Troubleshoot Google Cloud Platform policies.
+        (BETA) Troubleshoot Google Cloud Platform policies.
 
      privateca
-        Manage private Certificate Authorities on Google Cloud.
+        (BETA) Manage private Certificate Authorities on Google Cloud.
 
      projects
-        Create and manage project access policies.
+        (BETA) Create and manage project access policies.
+
+     publicca
+        (BETA) Manage accounts for Google Trust Services' Certificate
+        Authority.
 
      pubsub
-        Manage Cloud Pub/Sub topics, subscriptions, and snapshots.
-
-     recaptcha
-        Manage reCAPTCHA Enterprise Keys.
+        (BETA) Manage Cloud Pub/Sub topics, subscriptions, and snapshots.
 
      recommender
-        Manage Cloud recommendations and recommendation rules.
+        (BETA) Manage Cloud recommendations and recommendation rules.
 
      redis
-        Manage Cloud Memorystore Redis resources.
+        (BETA) Manage Cloud Memorystore Redis resources.
+
+     resource-config
+        (BETA) Commands for declarative management of Google Cloud Platform
+        resources.
 
      resource-manager
-        Manage Cloud Resources.
-
-     resource-settings
-        Create and manage Resource Settings.
+        (BETA) Manage Cloud Resources.
 
      run
-        Manage your Cloud Run applications.
+        (BETA) Manage your Cloud Run applications.
+
+     runtime-config
+        (BETA) Manage runtime configuration resources.
 
      scc
-        Manage Cloud SCC resources.
+        (BETA) Manage Cloud SCC resources.
 
      scheduler
-        Manage Cloud Scheduler jobs and schedules.
+        (BETA) Manage Cloud Scheduler jobs and schedules.
 
      secrets
-        Manage secrets on Google Cloud.
+        (BETA) Manage secrets on Google Cloud.
 
      service-directory
-        Command groups for Service Directory.
+        (BETA) Command groups for Service Directory.
 
      services
-        List, enable and disable APIs and services.
+        (BETA) List, enable and disable APIs and services.
 
      source
-        Cloud git repository commands.
+        (BETA) Cloud git repository commands.
 
      spanner
-        Command groups for Cloud Spanner.
+        (BETA) Command groups for Cloud Spanner.
 
      sql
-        Create and manage Google Cloud SQL databases.
-
-     storage
-        Create and manage Cloud Storage buckets and objects.
+        (BETA) Create and manage Google Cloud SQL databases.
 
      tasks
-        Manage Cloud Tasks queues and tasks.
+        (BETA) Manage Cloud Tasks queues and tasks.
+
+     terraform
+        (BETA) Commands related to Terraform management of Google Cloud
+        Platform resources.
 
      topic
-        gcloud supplementary help.
-
-     transcoder
-        Manage Transcoder jobs and job templates.
-
-     transfer
-        Manage Transfer Service jobs, operations, and agents.
-
-     vmware
-        Manage Google Cloud VMware Engine resources.
+        (BETA) gcloud supplementary help.
 
      workflows
-        Manage your Cloud Workflows resources.
+        (BETA) Manage your Cloud Workflows resources.
 
-     workspace-add-ons
-        Manage Google Workspace Add-ons resources.
+     workstations
+        (BETA) Manage Cloud Workstations resources.
 
 COMMANDS
     COMMAND is one of the following:
 
-     cheat-sheet
-        Display gcloud cheat sheet.
-
-     docker
-        (DEPRECATED) Enable Docker CLI access to Google Container Registry.
-
-     feedback
-        Provide feedback to the Google Cloud CLI team.
-
      help
-        Search gcloud help text.
-
-     info
-        Display information about the current gcloud environment.
+        (BETA) Search gcloud help text.
 
      init
-        Initialize or reinitialize gcloud.
+        (BETA) Initialize or reinitialize gcloud.
+
+     interactive
+        (BETA) Start the gcloud interactive shell.
 
      survey
-        Invoke a customer satisfaction survey for Google Cloud CLI.
+        (BETA) Invoke a customer satisfaction survey for Google Cloud CLI.
 
-     version
-        Print version information for Google Cloud CLI components.
+NOTES
+    This command is currently in beta and might change without notice.
+

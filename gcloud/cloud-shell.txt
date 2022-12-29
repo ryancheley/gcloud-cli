@@ -31,3 +31,9 @@ NOTES
     The previous gcloud alpha shell command to launch an interactive shell was
     renamed to gcloud alpha interactive.
 
+    These variants are also available:
+
+        $ gcloud alpha cloud-shell
+
+        $ gcloud beta cloud-shell
+

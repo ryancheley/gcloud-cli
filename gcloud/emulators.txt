@@ -21,3 +21,11 @@ GROUPS
 
      spanner
         Manage your local Spanner emulator.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha emulators
+
+        $ gcloud beta emulators
+

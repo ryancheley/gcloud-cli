@@ -38,3 +38,11 @@ GROUPS
 
      tls-routes
         Manage Network Services TlsRoutes.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha network-services
+
+        $ gcloud beta network-services
+

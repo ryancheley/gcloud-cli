@@ -18,3 +18,11 @@ GROUPS
 
      endpoints
         Create and manage Cloud IDS Endpoints.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha ids
+
+        $ gcloud beta ids
+

@@ -26,3 +26,11 @@ GROUPS
 
      vision
         Use Google Cloud Vision to analyze images.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha ml
+
+        $ gcloud beta ml
+

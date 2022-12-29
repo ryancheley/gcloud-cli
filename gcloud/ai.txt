@@ -41,3 +41,11 @@ GROUPS
 
      tensorboards
         Manage Vertex AI Tensorboards.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha ai
+
+        $ gcloud beta ai
+

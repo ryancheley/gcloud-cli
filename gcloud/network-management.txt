@@ -20,3 +20,9 @@ GROUPS
 
      operations
         Manage Network Management operations.
+
+NOTES
+    This variant is also available:
+
+        $ gcloud beta network-management
+

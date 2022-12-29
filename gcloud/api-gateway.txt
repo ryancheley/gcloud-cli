@@ -26,3 +26,11 @@ GROUPS
 
      operations
         Manage operations for Cloud API Gateways.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha api-gateway
+
+        $ gcloud beta api-gateway
+

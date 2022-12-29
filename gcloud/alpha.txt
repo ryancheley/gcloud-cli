@@ -1,8 +1,8 @@
 NAME
-    gcloud - manage Google Cloud resources and developer workflow
+    gcloud alpha - alpha versions of gcloud commands
 
 SYNOPSIS
-    gcloud GROUP | COMMAND [--account=ACCOUNT]
+    gcloud alpha GROUP | COMMAND [--account=ACCOUNT]
         [--billing-project=BILLING_PROJECT] [--configuration=CONFIGURATION]
         [--flags-file=YAML_FILE] [--flatten=[KEY,...]] [--format=FORMAT]
         [--help] [--project=PROJECT_ID] [--quiet, -q]
@@ -12,13 +12,7 @@ SYNOPSIS
         [--trace-token=TRACE_TOKEN] [--no-user-output-enabled]
 
 DESCRIPTION
-    The gcloud CLI manages authentication, local configuration, developer
-    workflow, and interactions with the Google Cloud APIs.
-
-    For a quick introduction to the gcloud CLI, a list of commonly used
-    commands, and a look at how these commands are structured, run gcloud
-    cheat-sheet or see the `gcloud` CLI cheat sheet
-    (https://cloud.google.com/sdk/docs/cheatsheet).
+    (ALPHA) Alpha versions of gcloud commands.
 
 GLOBAL FLAGS
      --account=ACCOUNT
@@ -159,319 +153,330 @@ GROUPS
     GROUP is one of the following:
 
      access-approval
-        Manage Access Approval requests and settings.
+        (ALPHA) Manage Access Approval requests and settings.
 
      access-context-manager
-        Manage Access Context Manager resources.
+        (ALPHA) Manage Access Context Manager resources.
 
      active-directory
-        Manage Managed Microsoft AD resources.
+        (ALPHA) Manage Managed Microsoft AD resources.
 
      ai
-        Manage entities in Vertex AI.
+        (ALPHA) Manage entities in Vertex AI.
 
      ai-platform
-        Manage AI Platform jobs and models.
+        (ALPHA) Manage AI Platform jobs and models.
 
-     alpha
-        (ALPHA) Alpha versions of gcloud commands.
+     alloydb
+        (ALPHA) Create and manage AlloyDB databases.
 
      anthos
-        Anthos command Group.
+        (ALPHA) Anthos command Group.
 
      api-gateway
-        Manage Cloud API Gateway resources.
+        (ALPHA) Manage Cloud API Gateway resources.
 
      apigee
-        Manage Apigee resources.
+        (ALPHA) Manage Apigee resources.
 
      app
-        Manage your App Engine deployments.
+        (ALPHA) Manage your App Engine deployments.
 
      artifacts
-        Manage Artifact Registry resources.
+        (ALPHA) Manage Artifact Registry resources.
 
      asset
-        Manage the Cloud Asset Inventory.
+        (ALPHA) Manage the Cloud Asset Inventory.
 
      assured
-        Read and manipulate Assured Workloads data controls.
+        (ALPHA) Read and manipulate Assured Workloads data controls.
 
      auth
-        Manage oauth2 credentials for the Google Cloud CLI.
+        (ALPHA) Manage oauth2 credentials for the Google Cloud CLI.
 
      batch
-        Manage Batch resources.
+        (ALPHA) Manage Batch resources.
 
-     beta
-        (BETA) Beta versions of gcloud commands.
+     beyondcorp
+        (ALPHA) Manage secure access to applications with integrated threat and
+        data protection.
 
      bigtable
-        Manage your Cloud Bigtable storage.
+        (ALPHA) Manage your Cloud Bigtable storage.
 
      billing
-        Manage billing accounts and associate them with projects.
+        (ALPHA) Manage billing accounts and associate them with projects.
 
      bms
-        Manage Bare Metal Solution resources.
+        (ALPHA) Manage Bare Metal Solution resources.
+
+     bq
+        (ALPHA) Interact with and manage resources in Google BigQuery.
 
      builds
-        Create and manage builds for Google Cloud Build.
+        (ALPHA) Create and manage builds for Google Cloud Build.
 
      certificate-manager
-        Manage SSL certificates for your Google Cloud projects.
+        (ALPHA) Manage SSL certificates for your Google Cloud projects.
 
      cloud-shell
-        Manage Google Cloud Shell.
+        (ALPHA) Manage Google Cloud Shell.
 
-     components
-        List, install, update, or remove Google Cloud CLI components.
+     code
+        (ALPHA) Create and manage a local development environment for Cloud
+        Run.
 
      composer
-        Create and manage Cloud Composer Environments.
+        (ALPHA) Create and manage Cloud Composer Environments.
 
      compute
-        Create and manipulate Compute Engine resources.
+        (ALPHA) Create and manipulate Compute Engine resources.
 
      config
-        View and edit Google Cloud CLI properties.
+        (ALPHA) View and edit Google Cloud CLI properties.
 
      container
-        Deploy and manage clusters of machines for running containers.
+        (ALPHA) Deploy and manage clusters of machines for running containers.
 
      data-catalog
-        Manage Data Catalog resources.
+        (ALPHA) Manage Data Catalog resources.
 
      database-migration
-        Manage Database Migration Service resources.
+        (ALPHA) Manage Database Migration Service resources.
 
      dataflow
-        Manage Google Cloud Dataflow resources.
+        (ALPHA) Manage Google Cloud Dataflow resources.
 
      dataplex
-        Manage Dataplex resources.
+        (ALPHA) Manage Dataplex resources.
 
      dataproc
-        Create and manage Google Cloud Dataproc clusters and jobs.
+        (ALPHA) Create and manage Google Cloud Dataproc clusters and jobs.
 
      datastore
-        Manage your Cloud Datastore resources.
-
-     datastream
-        Manage Cloud Datastream resources.
-
-     debug
-        Commands for interacting with the Cloud Debugger.
+        (ALPHA) Manage your Cloud Datastore resources.
 
      deploy
-        Create and manage Google Cloud Deploy resources.
+        (ALPHA) Create and manage Google Cloud Deploy resources.
 
      deployment-manager
-        Manage deployments of cloud resources.
+        (ALPHA) Manage deployments of cloud resources.
+
+     dialogflow
+        (ALPHA) Interact with and manage Dialogflow agents, entities, and
+        intents.
+
+     dlp
+        (ALPHA) Manage sensitive data with Cloud Data Loss Prevention.
 
      dns
-        Manage your Cloud DNS managed-zones and record-sets.
+        (ALPHA) Manage your Cloud DNS managed-zones and record-sets.
 
      domains
-        Manage domains for your Google Cloud projects.
+        (ALPHA) Manage domains for your Google Cloud projects.
 
      edge-cache
-        Manage Media CDN resources.
+        (ALPHA) Manage Media CDN resources.
 
      edge-cloud
-        Manage edge-cloud resources.
+        (ALPHA) Manage edge-cloud resources.
 
      emulators
-        Set up your local development environment using emulators.
+        (ALPHA) Set up your local development environment using emulators.
 
      endpoints
-        Create, enable and manage API services.
+        (ALPHA) Create, enable and manage API services.
 
      essential-contacts
-        Manage Essential Contacts.
-
-     eventarc
-        Manage Eventarc resources.
+        (ALPHA) Manage Essential Contacts.
 
      filestore
-        Create and manipulate Filestore resources.
+        (ALPHA) Create and manipulate Filestore resources.
 
      firebase
-        Work with Google Firebase.
+        (ALPHA) Work with Google Firebase.
 
      firestore
-        Manage your Cloud Firestore resources.
+        (ALPHA) Manage your Cloud Firestore resources.
 
      functions
-        Manage Google Cloud Functions.
+        (ALPHA) Manage Google Cloud Functions.
 
      game
-        Managed Cloud Game Services.
+        (ALPHA) Managed Cloud Game Services.
+
+     genomics
+        (ALPHA) Manage Genomics resources.
 
      healthcare
-        Manage Cloud Healthcare resources.
+        (ALPHA) Manage Cloud Healthcare resources.
 
      iam
-        Manage IAM service accounts and keys.
+        (ALPHA) Manage IAM service accounts and keys.
 
      iap
-        Manage IAP policies.
+        (ALPHA) Manage IAP policies.
 
      identity
-        Manage Cloud Identity Groups and Memberships resources.
+        (ALPHA) Manage Cloud Identity Groups and Memberships resources.
 
      ids
-        Manage Cloud IDS.
+        (ALPHA) Manage Cloud IDS.
+
+     immersive-stream
+        (ALPHA) Manage Immersive Stream resources.
 
      iot
-        Manage Cloud IoT resources.
+        (ALPHA) Manage Cloud IoT resources.
 
      kms
-        Manage cryptographic keys in the cloud.
+        (ALPHA) Manage cryptographic keys in the cloud.
+
+     lifesciences
+        (ALPHA) Manage Cloud Life Sciences resources.
 
      logging
-        Manage Cloud Logging.
+        (ALPHA) Manage Cloud Logging.
+
+     media
+        (ALPHA) Manage Cloud Media Services.
 
      memcache
-        Manage Cloud Memorystore Memcached resources.
+        (ALPHA) Manage Cloud Memorystore Memcached resources.
 
      metastore
-        Manage Dataproc Metastore resources.
+        (ALPHA) Manage Dataproc Metastore resources.
 
      ml
-        Use Google Cloud machine learning capabilities.
+        (ALPHA) Use Google Cloud machine learning capabilities.
 
      ml-engine
-        Manage AI Platform jobs and models.
+        (ALPHA) Manage AI Platform jobs and models.
 
      monitoring
-        Manage Cloud Monitoring dashboards.
+        (ALPHA) Manage Cloud Monitoring alerting policies, dashboards, and
+        notification channels.
+
+     netapp
+        (ALPHA) Create and manipulate Cloud NetApp Files resources.
 
      network-connectivity
-        Manage Network Connectivity Center resources.
-
-     network-management
-        Manage Network Management resources.
+        (ALPHA) Manage Network Connectivity Center resources.
 
      network-security
-        Manage Network Security resources.
+        (ALPHA) Manage Network Security resources.
 
      network-services
-        Manage Network Services resources.
+        (ALPHA) Manage Network Services resources.
 
      notebooks
-        Notebooks Command Group.
-
-     org-policies
-        Create and manage Organization Policies.
+        (ALPHA) Notebooks Command Group.
 
      organizations
-        Create and manage Google Cloud Platform Organizations.
-
-     policy-intelligence
-        A platform to help better understand, use and manage policies at scale.
+        (ALPHA) Create and manage Google Cloud Platform Organizations.
 
      policy-troubleshoot
-        Troubleshoot Google Cloud Platform policies.
-
-     privateca
-        Manage private Certificate Authorities on Google Cloud.
+        (ALPHA) Troubleshoot Google Cloud Platform policies.
 
      projects
-        Create and manage project access policies.
+        (ALPHA) Create and manage project access policies.
+
+     publicca
+        (ALPHA) Manage accounts for Google Trust Services' Certificate
+        Authority.
 
      pubsub
-        Manage Cloud Pub/Sub topics, subscriptions, and snapshots.
+        (ALPHA) Manage Cloud Pub/Sub topics, subscriptions, and snapshots.
 
      recaptcha
-        Manage reCAPTCHA Enterprise Keys.
+        (ALPHA) Manage reCAPTCHA Enterprise Keys.
 
      recommender
-        Manage Cloud recommendations and recommendation rules.
+        (ALPHA) Manage Cloud recommendations and recommendation rules.
 
      redis
-        Manage Cloud Memorystore Redis resources.
+        (ALPHA) Manage Cloud Memorystore Redis resources.
+
+     resource-config
+        (ALPHA) Commands for declarative management of Google Cloud Platform
+        resources.
 
      resource-manager
-        Manage Cloud Resources.
+        (ALPHA) Manage Cloud Resources.
 
      resource-settings
-        Create and manage Resource Settings.
+        (ALPHA) Create and manage Resource Settings.
 
      run
-        Manage your Cloud Run applications.
+        (ALPHA) Manage your Cloud Run applications.
 
      scc
-        Manage Cloud SCC resources.
+        (ALPHA) Manage Cloud SCC resources.
 
      scheduler
-        Manage Cloud Scheduler jobs and schedules.
+        (ALPHA) Manage Cloud Scheduler jobs and schedules.
 
      secrets
-        Manage secrets on Google Cloud.
+        (ALPHA) Manage secrets on Google Cloud.
 
      service-directory
-        Command groups for Service Directory.
+        (ALPHA) Command groups for Service Directory.
 
      services
-        List, enable and disable APIs and services.
+        (ALPHA) List, enable and disable APIs and services.
 
      source
-        Cloud git repository commands.
+        (ALPHA) Cloud git repository commands.
 
      spanner
-        Command groups for Cloud Spanner.
+        (ALPHA) Command groups for Cloud Spanner.
 
      sql
-        Create and manage Google Cloud SQL databases.
+        (ALPHA) Create and manage Google Cloud SQL databases.
 
      storage
-        Create and manage Cloud Storage buckets and objects.
+        (ALPHA) Create and manage Cloud Storage buckets and objects.
 
      tasks
-        Manage Cloud Tasks queues and tasks.
+        (ALPHA) Manage Cloud Tasks queues and tasks.
+
+     terraform
+        (ALPHA) Commands related to Terraform management of Google Cloud
+        Platform resources.
 
      topic
-        gcloud supplementary help.
+        (ALPHA) gcloud supplementary help.
 
-     transcoder
-        Manage Transcoder jobs and job templates.
+     trace
+        (ALPHA) Manage Stackdriver Trace.
 
      transfer
-        Manage Transfer Service jobs, operations, and agents.
+        (ALPHA) Manage Transfer Service jobs, operations, and agents.
 
-     vmware
-        Manage Google Cloud VMware Engine resources.
+     web-security-scanner
+        (ALPHA) Manage Cloud Web Security Scanner resources.
 
-     workflows
-        Manage your Cloud Workflows resources.
-
-     workspace-add-ons
-        Manage Google Workspace Add-ons resources.
+     workstations
+        (ALPHA) Manage Cloud Workstations resources.
 
 COMMANDS
     COMMAND is one of the following:
 
-     cheat-sheet
-        Display gcloud cheat sheet.
-
-     docker
-        (DEPRECATED) Enable Docker CLI access to Google Container Registry.
-
-     feedback
-        Provide feedback to the Google Cloud CLI team.
-
      help
-        Search gcloud help text.
-
-     info
-        Display information about the current gcloud environment.
+        (ALPHA) Search gcloud help text.
 
      init
-        Initialize or reinitialize gcloud.
+        (ALPHA) Initialize or reinitialize gcloud.
+
+     interactive
+        (ALPHA) Start the gcloud interactive shell.
 
      survey
-        Invoke a customer satisfaction survey for Google Cloud CLI.
+        (ALPHA) Invoke a customer satisfaction survey for Google Cloud CLI.
 
-     version
-        Print version information for Google Cloud CLI components.
+NOTES
+    This command is currently in alpha and might change without notice. If this
+    command fails with API permission errors despite specifying the correct
+    project, you might be trying to access an API with an invitation-only early
+    access allowlist.
+

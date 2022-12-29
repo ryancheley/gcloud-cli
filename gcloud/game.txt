@@ -23,3 +23,11 @@ GROUPS
 
      servers
         Managed Cloud Game Servers.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha game
+
+        $ gcloud beta game
+

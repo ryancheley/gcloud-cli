@@ -47,3 +47,9 @@ COMMANDS
      service-agent
         Manage a project's Cloud Storage service agent, which is used to
         perform Cloud KMS operations.
+
+NOTES
+    This variant is also available:
+
+        $ gcloud alpha storage
+

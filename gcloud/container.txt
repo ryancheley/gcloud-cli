@@ -26,9 +26,6 @@ GCLOUD WIDE FLAGS
 GROUPS
     GROUP is one of the following:
 
-     attached
-        Manage Attached clusters for running containers.
-
      aws
         Deploy and manage clusters of machines on AWS for running containers.
 
@@ -66,3 +63,11 @@ COMMANDS
 
      get-server-config
         Get Kubernetes Engine server config.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha container
+
+        $ gcloud beta container
+

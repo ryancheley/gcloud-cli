@@ -23,3 +23,11 @@ GROUPS
 
      server-tls-policies
         Manage Network Security ServerTlsPolicies.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha network-security
+
+        $ gcloud beta network-security
+

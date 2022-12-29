@@ -35,3 +35,11 @@ GROUPS
 
      sources
         Manage Cloud SCC (Security Command Center) finding sources.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha scc
+
+        $ gcloud beta scc
+

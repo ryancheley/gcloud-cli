@@ -41,3 +41,11 @@ COMMANDS
 
      import
         import Cloud Firestore documents from Google Cloud Storage.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha firestore
+
+        $ gcloud beta firestore
+

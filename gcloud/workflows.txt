@@ -38,3 +38,9 @@ COMMANDS
 
      run
         Execute a workflow and wait for the execution to complete.
+
+NOTES
+    This variant is also available:
+
+        $ gcloud beta workflows
+

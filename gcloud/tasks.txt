@@ -41,3 +41,11 @@ COMMANDS
 
      run
         Force a task to run now.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha tasks
+
+        $ gcloud beta tasks
+

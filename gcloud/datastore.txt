@@ -47,3 +47,11 @@ COMMANDS
 
      import
         Import Cloud Datastore entities from Google Cloud Storage.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha datastore
+
+        $ gcloud beta datastore
+

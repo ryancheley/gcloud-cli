@@ -30,3 +30,11 @@ GROUPS
 
      services
         Manage Services.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha endpoints
+
+        $ gcloud beta endpoints
+

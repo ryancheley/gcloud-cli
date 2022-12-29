@@ -28,3 +28,11 @@ GROUPS
 
      tasks
         Manage Batch task resources.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha batch
+
+        $ gcloud beta batch
+

@@ -34,3 +34,11 @@ COMMANDS
 
      update
         Update an essential contact.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha essential-contacts
+
+        $ gcloud beta essential-contacts
+

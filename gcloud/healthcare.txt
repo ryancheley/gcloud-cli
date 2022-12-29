@@ -32,3 +32,11 @@ GROUPS
 
      operations
         Manage Cloud Healthcare API operations.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha healthcare
+
+        $ gcloud beta healthcare
+

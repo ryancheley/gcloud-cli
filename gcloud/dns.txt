@@ -58,3 +58,11 @@ GROUPS
 
      response-policies
         Manage your Cloud DNS response policy.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha dns
+
+        $ gcloud beta dns
+

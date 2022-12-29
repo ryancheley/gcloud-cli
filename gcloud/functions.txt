@@ -63,3 +63,11 @@ COMMANDS
 
      set-iam-policy
         Sets IAM policy for a Google Cloud Function.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha functions
+
+        $ gcloud beta functions
+

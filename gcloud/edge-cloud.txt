@@ -17,3 +17,9 @@ GROUPS
 
      container
         Manage Edge Container resources.
+
+NOTES
+    This variant is also available:
+
+        $ gcloud alpha edge-cloud
+

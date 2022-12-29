@@ -32,3 +32,11 @@ GROUPS
 
      operations
         Manage Cloud Bigtable operations.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha bigtable
+
+        $ gcloud beta bigtable
+

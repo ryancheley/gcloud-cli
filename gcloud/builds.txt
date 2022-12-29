@@ -15,9 +15,6 @@ GCLOUD WIDE FLAGS
 GROUPS
     GROUP is one of the following:
 
-     triggers
-        Create and manage build triggers for Google Cloud Build.
-
      worker-pools
         Manage worker pools for Google Cloud Build.
 
@@ -38,3 +35,11 @@ COMMANDS
 
      submit
         Submit a build using Google Cloud Build.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha builds
+
+        $ gcloud beta builds
+

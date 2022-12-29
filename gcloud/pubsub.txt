@@ -38,3 +38,11 @@ GROUPS
 
      topics
         Manage Cloud Pub/Sub topics.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha pubsub
+
+        $ gcloud beta pubsub
+

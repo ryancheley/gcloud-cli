@@ -26,3 +26,11 @@ GROUPS
 
      zones
         Manage Cloud Memorystore Redis zones.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha redis
+
+        $ gcloud beta redis
+

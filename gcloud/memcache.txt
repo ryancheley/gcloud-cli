@@ -23,3 +23,11 @@ GROUPS
 
      regions
         Manage Cloud Memorystore Memcached regions.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha memcache
+
+        $ gcloud beta memcache
+

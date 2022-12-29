@@ -26,3 +26,11 @@ GROUPS
 
      runtimes
         Notebooks Runtimes command group.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha notebooks
+
+        $ gcloud beta notebooks
+

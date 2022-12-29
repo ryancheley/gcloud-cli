@@ -35,3 +35,11 @@ COMMANDS
 
      search
         Search Data Catalog for resources that match a query.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha data-catalog
+
+        $ gcloud beta data-catalog
+

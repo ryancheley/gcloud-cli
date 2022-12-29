@@ -71,3 +71,11 @@ COMMANDS
 
      revoke
         Revoke access credentials for an account.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha auth
+
+        $ gcloud beta auth
+

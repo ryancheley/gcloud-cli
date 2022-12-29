@@ -32,3 +32,9 @@ GROUPS
 
      spokes
         Manage Network Connectivity Center spokes.
+
+NOTES
+    This variant is also available:
+
+        $ gcloud alpha network-connectivity
+

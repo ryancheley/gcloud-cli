@@ -69,3 +69,11 @@ TOPICS
 
      uninstall
         Supplementary help for uninstalling Google Cloud CLI.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha topic
+
+        $ gcloud beta topic
+

@@ -17,3 +17,11 @@ GROUPS
 
      groups
         Manage Cloud Identity Groups.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha identity
+
+        $ gcloud beta identity
+

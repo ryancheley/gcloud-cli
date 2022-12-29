@@ -225,3 +225,11 @@ COMMANDS
 
      start-iap-tunnel
         Starts an IAP TCP forwarding tunnel.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha compute
+
+        $ gcloud beta compute
+

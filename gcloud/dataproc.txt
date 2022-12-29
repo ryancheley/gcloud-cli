@@ -50,3 +50,11 @@ GROUPS
 
      workflow-templates
         Create and manage Dataproc workflow templates.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha dataproc
+
+        $ gcloud beta dataproc
+

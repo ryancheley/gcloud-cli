@@ -40,3 +40,11 @@ GROUPS
 
      types
         Commands for Deployment Manager types.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha deployment-manager
+
+        $ gcloud beta deployment-manager
+

@@ -17,3 +17,9 @@ GROUPS
 
      keys
         Managed reCAPTCHA Keys.
+
+NOTES
+    This variant is also available:
+
+        $ gcloud alpha recaptcha
+

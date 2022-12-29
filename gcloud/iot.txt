@@ -20,3 +20,11 @@ GROUPS
 
      registries
         Manage Cloud IoT Registries.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha iot
+
+        $ gcloud beta iot
+

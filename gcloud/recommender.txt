@@ -31,3 +31,11 @@ GROUPS
 
      recommender-config
         Manage Cloud resource recommender configuration.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha recommender
+
+        $ gcloud beta recommender
+

@@ -53,3 +53,11 @@ COMMANDS
 
      write
         Write a log entry.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha logging
+
+        $ gcloud beta logging
+

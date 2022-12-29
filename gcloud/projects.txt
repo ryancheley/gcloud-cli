@@ -62,3 +62,11 @@ COMMANDS
 
      update
         Update the name of a project.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha projects
+
+        $ gcloud beta projects
+

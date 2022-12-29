@@ -47,3 +47,11 @@ GROUPS
 
      yum
         Manage Artifact Registry RPM packages.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha artifacts
+
+        $ gcloud beta artifacts
+

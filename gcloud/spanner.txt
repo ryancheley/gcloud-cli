@@ -35,3 +35,11 @@ GROUPS
 
      samples
         Cloud Spanner sample apps.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha spanner
+
+        $ gcloud beta spanner
+

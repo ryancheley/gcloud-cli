@@ -26,3 +26,11 @@ COMMANDS
 
      create-login-config
         Generates a login configuration file.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha anthos
+
+        $ gcloud beta anthos
+

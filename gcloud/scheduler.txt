@@ -20,3 +20,11 @@ GROUPS
 
      locations
         Get information about Cloud Scheduler locations.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha scheduler
+
+        $ gcloud beta scheduler
+

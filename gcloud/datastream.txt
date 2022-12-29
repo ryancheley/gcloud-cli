@@ -35,3 +35,9 @@ GROUPS
 
      streams
         Manage Datastream stream resources.
+
+NOTES
+    This variant is also available:
+
+        $ gcloud beta datastream
+

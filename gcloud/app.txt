@@ -93,3 +93,11 @@ COMMANDS
 
      update
         Updates an App Engine application.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha app
+
+        $ gcloud beta app
+

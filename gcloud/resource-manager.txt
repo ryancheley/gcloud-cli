@@ -24,3 +24,11 @@ GROUPS
 
      tags
         Create and manipulate tag keys, values and bindings.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha resource-manager
+
+        $ gcloud beta resource-manager
+

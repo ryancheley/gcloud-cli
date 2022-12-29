@@ -40,3 +40,11 @@ COMMANDS
 
      deploy
         Create or update a Cloud Run service.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha run
+
+        $ gcloud beta run
+

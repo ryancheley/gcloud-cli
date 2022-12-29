@@ -38,3 +38,9 @@ COMMANDS
 
      authorize
         Authorize an account for all Transfer Service features.
+
+NOTES
+    This variant is also available:
+
+        $ gcloud alpha transfer
+

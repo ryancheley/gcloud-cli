@@ -36,3 +36,11 @@ GROUPS
 
      web
         Manage IAP web policies.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha iap
+
+        $ gcloud beta iap
+

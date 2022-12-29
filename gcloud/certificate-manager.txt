@@ -27,3 +27,11 @@ GROUPS
 
      operations
         Manage Certificate Manager operations.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha certificate-manager
+
+        $ gcloud beta certificate-manager
+

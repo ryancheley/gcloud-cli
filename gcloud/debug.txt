@@ -64,3 +64,9 @@ GROUPS
 
      targets
         Commands for interacting with Cloud Debugger debug targets.
+
+NOTES
+    This variant is also available:
+
+        $ gcloud beta debug
+

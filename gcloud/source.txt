@@ -21,3 +21,11 @@ GROUPS
 
      repos
         Manage cloud source repositories.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha source
+
+        $ gcloud beta source
+

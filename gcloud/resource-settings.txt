@@ -38,3 +38,9 @@ COMMANDS
 
      unset-value
         Remove the value of a resource setting.
+
+NOTES
+    This variant is also available:
+
+        $ gcloud alpha resource-settings
+

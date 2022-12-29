@@ -52,3 +52,11 @@ COMMANDS
 
      list
         List services for a project.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha services
+
+        $ gcloud beta services
+

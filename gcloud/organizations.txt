@@ -43,3 +43,11 @@ COMMANDS
 
      set-iam-policy
         Set IAM policy for an organization.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha organizations
+
+        $ gcloud beta organizations
+

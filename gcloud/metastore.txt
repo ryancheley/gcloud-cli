@@ -26,3 +26,11 @@ GROUPS
 
      services
         Manage Dataproc Metastore services.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha metastore
+
+        $ gcloud beta metastore
+
