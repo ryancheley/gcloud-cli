@@ -32,3 +32,11 @@ GROUPS
 
      operations
         Provide commands for managing AlloyDB operations.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha alloydb
+
+        $ gcloud beta alloydb
+

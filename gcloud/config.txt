@@ -119,6 +119,11 @@ AVAILABLE PROPERTIES
             to 0, turns off log garbage collection and does not delete log
             files. If unset, the default is 30 days.
 
+         parse_error_details
+            If True, gcloud will attempt to parse and interpret error details
+            in API originating errors. If False, gcloud will write flush error
+            details as is to stderr/log.
+
          pass_credentials_to_gsutil
             If True, pass the configured Google Cloud CLI authentication to
             gsutil.

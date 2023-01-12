@@ -173,6 +173,9 @@ GROUPS
      ai-platform
         Manage AI Platform jobs and models.
 
+     alloydb
+        Create and manage AlloyDB databases.
+
      alpha
         (ALPHA) Alpha versions of gcloud commands.
 
