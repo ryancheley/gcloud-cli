@@ -81,6 +81,18 @@ AVAILABLE PROPERTIES
          custom_ca_certs_file
             Absolute path to a custom CA cert file.
 
+         default_format
+            Sets the default format for printing command resources.
+            core/default_format overrides the default yaml format. If the
+            command contains a command-specific output format, it takes
+            precedence over the core/default_format value. Use
+            --verbosity=debug flag to view the command-specific format. Both
+            core/format and --format also take precedence over
+            core/default_format. The supported formats are limited to: config,
+            default, disable, flattened, json, list, none, object, text. For
+            more details run $ gcloud topic formats. Run $ gcloud config set
+            --help to see more information about core/default_format
+
          default_regional_backend_service
             If True, backend services in gcloud compute backend-services will
             be regional by default. Setting the --global flag is required for
@@ -108,6 +120,17 @@ AVAILABLE PROPERTIES
 
          enable_feature_flags
             If True, remote config-file driven feature flags will be enabled.
+
+         format
+            Sets the format for printing all command resources. This overrides
+            the default command-specific human-friendly output format. Use
+            --verbosity=debug flag to view the command-specific format. If both
+            core/default_format and core/format are specified, core/format
+            takes precedence. If both core/format and --format are specified,
+            --format takes precedence. The supported formats are limited to:
+            config, default, disable, flattened, json, list, none, object,
+            text. For more details run $ gcloud topic formats. Run $ gcloud
+            config set --help to see more information about core/format
 
          log_http
             If True, log HTTP requests and responses to the logs. To see logs
@@ -426,6 +449,10 @@ AVAILABLE PROPERTIES
          logging
             Overrides API endpoint for gcloud logging command group. Defaults
             to https://logging.googleapis.com/
+
+         looker
+            Overrides API endpoint for gcloud looker command group. Defaults to
+            https://looker.googleapis.com/
 
          managedidentities
             Overrides API endpoint for gcloud active-directory command group.
@@ -992,6 +1019,12 @@ AVAILABLE PROPERTIES
             resources. When a --location flag is required but not provided, the
             command will fall back to this value.
 
+     looker
+         region
+            Default region to use when working with Cloud Looker resources.
+            When a region is required but not provided by a flag, the command
+            will fall back to this value, if set.
+
      media_asset
          location
             Default location to use when working with Cloud Media Asset
@@ -1139,6 +1172,11 @@ AVAILABLE PROPERTIES
             internal IP as an instance in the current subnet. Defaults to True.
 
      storage
+         additional_headers
+            Includes arbitrary headers in storage API calls. Accepts a comma
+            separated list of key=value pairs, e.g.
+            header1=value1,header2=value2.
+
          base_retry_delay
             Second delay between retrying operations. May be multiplied by
             exponential_sleep_multiplier.
