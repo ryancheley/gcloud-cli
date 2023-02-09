@@ -329,6 +329,9 @@ GROUPS
      ids
         Manage Cloud IDS.
 
+     immersive-stream
+        Manage Immersive Stream resources.
+
      iot
         Manage Cloud IoT resources.
 
