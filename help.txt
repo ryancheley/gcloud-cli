@@ -267,7 +267,7 @@ GROUPS
         Manage Cloud Datastream resources.
 
      debug
-        Commands for interacting with the Cloud Debugger.
+        (DEPRECATED) Commands for interacting with the Cloud Debugger.
 
      deploy
         Create and manage Google Cloud Deploy resources.

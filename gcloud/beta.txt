@@ -256,7 +256,7 @@ GROUPS
         (BETA) Manage Cloud Datastream resources.
 
      debug
-        (BETA) Commands for interacting with the Cloud Debugger.
+        (BETA) (DEPRECATED) Commands for interacting with the Cloud Debugger.
 
      deploy
         (BETA) Create and manage Google Cloud Deploy resources.
@@ -355,7 +355,7 @@ GROUPS
         (BETA) Manage Network Services resources.
 
      notebooks
-        (BETA) Notebooks Command Group.
+        (BETA) (DEPRECATED) Notebooks Command Group.
 
      organizations
         (BETA) Create and manage Google Cloud Platform Organizations.

@@ -379,7 +379,7 @@ GROUPS
         (ALPHA) Manage Network Services resources.
 
      notebooks
-        (ALPHA) Notebooks Command Group.
+        (ALPHA) (DEPRECATED) Notebooks Command Group.
 
      organizations
         (ALPHA) Create and manage Google Cloud Platform Organizations.
