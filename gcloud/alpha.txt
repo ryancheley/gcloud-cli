@@ -363,6 +363,9 @@ GROUPS
         (ALPHA) Manage Cloud Monitoring alerting policies, dashboards, and
         notification channels.
 
+     mps
+        (ALPHA) Manage Marketplace Solutions resources.
+
      netapp
         (ALPHA) Create and manipulate Cloud NetApp Files resources.
 
