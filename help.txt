@@ -389,6 +389,9 @@ GROUPS
      projects
         Create and manage project access policies.
 
+     publicca
+        Manage accounts for Google Trust Services' Certificate Authority.
+
      pubsub
         Manage Cloud Pub/Sub topics, subscriptions, and snapshots.
 
