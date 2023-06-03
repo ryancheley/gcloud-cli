@@ -344,6 +344,9 @@ GROUPS
      logging
         (ALPHA) Manage Cloud Logging.
 
+     looker
+        (ALPHA) Manage Looker resources.
+
      media
         (ALPHA) Manage Cloud Media Services.
 

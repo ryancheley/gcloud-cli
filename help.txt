@@ -341,6 +341,9 @@ GROUPS
      logging
         Manage Cloud Logging.
 
+     looker
+        Manage Looker resources.
+
      memcache
         Manage Cloud Memorystore Memcached resources.
 

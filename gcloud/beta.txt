@@ -285,9 +285,6 @@ GROUPS
      eventarc
         (BETA) Manage Eventarc resources.
 
-     events
-        (BETA) (DEPRECATED) Manage your Cloud Run for Anthos Events resources.
-
      filestore
         (BETA) Create and manipulate Filestore resources.
 
