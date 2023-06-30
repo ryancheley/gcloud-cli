@@ -464,6 +464,9 @@ GROUPS
      workspace-add-ons
         Manage Google Workspace Add-ons resources.
 
+     workstations
+        Manage Cloud Workstations resources.
+
 COMMANDS
     COMMAND is one of the following:
 
