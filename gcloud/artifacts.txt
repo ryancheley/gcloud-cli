@@ -24,9 +24,6 @@ GROUPS
      files
         Manage Artifact Registry files.
 
-     go
-        Manage Artifact Registry Go modules.
-
      locations
         Manage Artifact Registry resource locations.
 
