@@ -255,9 +255,6 @@ GROUPS
      datastream
         (BETA) Manage Cloud Datastream resources.
 
-     debug
-        (BETA) (DEPRECATED) Commands for interacting with the Cloud Debugger.
-
      deploy
         (BETA) Create and manage Google Cloud Deploy resources.
 
