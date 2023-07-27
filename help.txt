@@ -455,6 +455,9 @@ GROUPS
      vmware
         Manage Google Cloud VMware Engine resources.
 
+     workbench
+        Workbench Command Group.
+
      workflows
         Manage your Cloud Workflows resources.
 
