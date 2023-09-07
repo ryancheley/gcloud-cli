@@ -356,9 +356,6 @@ GROUPS
      monitoring
         Manage Cloud Monitoring dashboards.
 
-     netapp
-        Create and manipulate Cloud NetApp Files resources.
-
      network-connectivity
         Manage Network Connectivity Center resources.
 
