@@ -333,7 +333,7 @@ GROUPS
         (ALPHA) Manage Immersive Stream resources.
 
      infra-manager
-        (ALPHA) Manage Config resources.
+        (ALPHA) Manage Infra Manager resources.
 
      iot
         (ALPHA) Manage Cloud IoT resources.
