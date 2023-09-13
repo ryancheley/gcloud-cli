@@ -313,7 +313,7 @@ GROUPS
         (BETA) Manage Cloud IDS.
 
      iot
-        (BETA) Manage Cloud IoT resources.
+        (BETA) (DEPRECATED) Manage Cloud IoT resources.
 
      kms
         (BETA) Manage cryptographic keys in the cloud.

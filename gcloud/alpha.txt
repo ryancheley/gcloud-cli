@@ -336,7 +336,7 @@ GROUPS
         (ALPHA) Manage Infra Manager resources.
 
      iot
-        (ALPHA) Manage Cloud IoT resources.
+        (ALPHA) (DEPRECATED) Manage Cloud IoT resources.
 
      kms
         (ALPHA) Manage cryptographic keys in the cloud.

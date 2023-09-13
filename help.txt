@@ -330,7 +330,7 @@ GROUPS
         Manage Immersive Stream resources.
 
      iot
-        Manage Cloud IoT resources.
+        (DEPRECATED) Manage Cloud IoT resources.
 
      kms
         Manage cryptographic keys in the cloud.
