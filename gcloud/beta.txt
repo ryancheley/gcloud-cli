@@ -256,7 +256,7 @@ GROUPS
         (BETA) Manage Cloud Datastream resources.
 
      deploy
-        (BETA) Create and manage Google Cloud Deploy resources.
+        (BETA) Create and manage Cloud Deploy resources.
 
      deployment-manager
         (BETA) Manage deployments of cloud resources.

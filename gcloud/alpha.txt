@@ -263,7 +263,7 @@ GROUPS
         (ALPHA) Manage your Cloud Datastore resources.
 
      deploy
-        (ALPHA) Create and manage Google Cloud Deploy resources.
+        (ALPHA) Create and manage Cloud Deploy resources.
 
      deployment-manager
         (ALPHA) Manage deployments of cloud resources.

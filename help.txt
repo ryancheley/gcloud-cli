@@ -267,7 +267,7 @@ GROUPS
         Manage Cloud Datastream resources.
 
      deploy
-        Create and manage Google Cloud Deploy resources.
+        Create and manage Cloud Deploy resources.
 
      deployment-manager
         Manage deployments of cloud resources.
