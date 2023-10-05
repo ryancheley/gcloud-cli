@@ -329,6 +329,9 @@ GROUPS
      immersive-stream
         Manage Immersive Stream resources.
 
+     infra-manager
+        Manage Infra Manager resources.
+
      iot
         (DEPRECATED) Manage Cloud IoT resources.
 
