@@ -440,6 +440,9 @@ GROUPS
      service-directory
         (ALPHA) Command groups for Service Directory.
 
+     service-extensions
+        (ALPHA) Manage Service Extensions resources.
+
      services
         (ALPHA) List, enable and disable APIs and services.
 

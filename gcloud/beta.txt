@@ -342,6 +342,9 @@ GROUPS
      netapp
         (BETA) Create and manipulate Cloud NetApp Files resources.
 
+     network-connectivity
+        (BETA) Manage Network Connectivity Center resources.
+
      network-management
         (BETA) Manage Network Management resources.
 
@@ -403,6 +406,9 @@ GROUPS
 
      service-directory
         (BETA) Command groups for Service Directory.
+
+     service-extensions
+        (BETA) Manage Service Extensions resources.
 
      services
         (BETA) List, enable and disable APIs and services.
