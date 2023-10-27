@@ -197,6 +197,9 @@ GROUPS
      auth
         (ALPHA) Manage oauth2 credentials for the Google Cloud CLI.
 
+     backup-dr
+        (ALPHA) Backup and DR command group.
+
      batch
         (ALPHA) Manage Batch resources.
 
