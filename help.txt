@@ -308,9 +308,6 @@ GROUPS
      functions
         Manage Google Cloud Functions.
 
-     game
-        Managed Cloud Game Services.
-
      healthcare
         Manage Cloud Healthcare resources.
 
