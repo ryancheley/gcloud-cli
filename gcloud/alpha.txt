@@ -311,9 +311,6 @@ GROUPS
      functions
         (ALPHA) Manage Google Cloud Functions.
 
-     game
-        (ALPHA) Managed Cloud Game Services.
-
      genomics
         (ALPHA) Manage Genomics resources.
 
