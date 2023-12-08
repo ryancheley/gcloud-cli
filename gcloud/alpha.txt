@@ -185,6 +185,9 @@ GROUPS
      app
         (ALPHA) Manage your App Engine deployments.
 
+     apphub
+        (ALPHA) Manage App Hub resources.
+
      artifacts
         (ALPHA) Manage Artifact Registry resources.
 
@@ -198,7 +201,7 @@ GROUPS
         (ALPHA) Manage oauth2 credentials for the Google Cloud CLI.
 
      backup-dr
-        (ALPHA) Backup and DR command group.
+        (ALPHA) Manage Backup and DR resources.
 
      batch
         (ALPHA) Manage Batch resources.
@@ -366,8 +369,8 @@ GROUPS
         (ALPHA) Manage AI Platform jobs and models.
 
      monitoring
-        (ALPHA) Manage Cloud Monitoring alerting policies, dashboards, and
-        notification channels.
+        (ALPHA) Manage Cloud Monitoring alerting policies, dashboards,
+        notification channels, and uptime checks.
 
      mps
         (ALPHA) Manage Marketplace Solutions resources.

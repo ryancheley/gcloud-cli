@@ -206,6 +206,9 @@ GROUPS
      auth
         Manage oauth2 credentials for the Google Cloud CLI.
 
+     backup-dr
+        Manage Backup and DR resources.
+
      batch
         Manage Batch resources.
 

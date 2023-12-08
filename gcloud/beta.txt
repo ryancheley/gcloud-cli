@@ -197,6 +197,9 @@ GROUPS
      auth
         (BETA) Manage oauth2 credentials for the Google Cloud CLI.
 
+     backup-dr
+        (BETA) Manage Backup and DR resources.
+
      batch
         (BETA) Manage Batch resources.
 
