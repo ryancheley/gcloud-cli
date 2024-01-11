@@ -455,6 +455,9 @@ GROUPS
      sql
         (ALPHA) Create and manage Google Cloud SQL databases.
 
+     stacks
+        (ALPHA) View and manage your Stacks resources.
+
      storage
         (ALPHA) Create and manage Cloud Storage buckets and objects.
 
