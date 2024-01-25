@@ -360,6 +360,9 @@ GROUPS
      metastore
         (ALPHA) Manage Dataproc Metastore resources.
 
+     migration
+        (ALPHA) The root group for various Cloud Migration teams.
+
      ml
         (ALPHA) Use Google Cloud machine learning capabilities.
 
