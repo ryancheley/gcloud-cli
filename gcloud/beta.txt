@@ -414,6 +414,9 @@ GROUPS
      source
         (BETA) Cloud git repository commands.
 
+     source-manager
+        (BETA) Manage Secure Source Manager resources.
+
      spanner
         (BETA) Command groups for Cloud Spanner.
 

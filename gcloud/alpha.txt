@@ -453,6 +453,9 @@ GROUPS
      source
         (ALPHA) Cloud git repository commands.
 
+     source-manager
+        (ALPHA) Manage Secure Source Manager resources.
+
      spanner
         (ALPHA) Command groups for Cloud Spanner.
 
