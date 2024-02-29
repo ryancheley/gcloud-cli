@@ -432,6 +432,9 @@ GROUPS
      service-directory
         Command groups for Service Directory.
 
+     service-extensions
+        Manage Service Extensions resources.
+
      services
         List, enable and disable APIs and services.
 

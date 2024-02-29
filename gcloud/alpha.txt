@@ -198,6 +198,9 @@ GROUPS
      assured
         (ALPHA) Read and manipulate Assured Workloads data controls.
 
+     audit-manager
+        (ALPHA) Enroll resources, audit workloads and generate reports.
+
      auth
         (ALPHA) Manage oauth2 credentials for the Google Cloud CLI.
 
