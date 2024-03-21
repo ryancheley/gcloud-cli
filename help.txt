@@ -195,6 +195,9 @@ GROUPS
      app
         Manage your App Engine deployments.
 
+     apphub
+        Manage App Hub resources.
+
      artifacts
         Manage Artifact Registry resources.
 
