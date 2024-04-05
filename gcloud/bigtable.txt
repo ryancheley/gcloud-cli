@@ -18,9 +18,6 @@ GROUPS
      app-profiles
         Manage Cloud Bigtable app profiles.
 
-     authorized-views
-        Manage Cloud Bigtable Authorized Views.
-
      backups
         Manage Cloud Bigtable backups.
 
