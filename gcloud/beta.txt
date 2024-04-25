@@ -283,9 +283,6 @@ GROUPS
      essential-contacts
         (BETA) Manage Essential Contacts.
 
-     eventarc
-        (BETA) (DEPRECATED) Manage Eventarc resources.
-
      filestore
         (BETA) Create and manipulate Filestore resources.
 
