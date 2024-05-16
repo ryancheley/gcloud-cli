@@ -310,9 +310,6 @@ GROUPS
      ids
         (BETA) Manage Cloud IDS.
 
-     iot
-        (BETA) (DEPRECATED) Manage Cloud IoT resources.
-
      kms
         (BETA) Manage cryptographic keys in the cloud.
 
@@ -357,6 +354,9 @@ GROUPS
 
      organizations
         (BETA) Create and manage Google Cloud Platform Organizations.
+
+     pam
+        (BETA) Manage Privileged Access Manager (PAM) entitlements and grants.
 
      policy-troubleshoot
         (BETA) Troubleshoot Google Cloud Platform policies.

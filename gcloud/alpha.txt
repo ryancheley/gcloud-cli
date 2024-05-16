@@ -278,6 +278,9 @@ GROUPS
      deployment-manager
         (ALPHA) Manage deployments of cloud resources.
 
+     developer-connect
+        (ALPHA) Manage Developer Connect resources.
+
      dialogflow
         (ALPHA) Interact with and manage Dialogflow agents, entities, and
         intents.
@@ -339,9 +342,6 @@ GROUPS
      immersive-stream
         (ALPHA) Manage Immersive Stream resources.
 
-     iot
-        (ALPHA) (DEPRECATED) Manage Cloud IoT resources.
-
      kms
         (ALPHA) Manage cryptographic keys in the cloud.
 
@@ -397,8 +397,14 @@ GROUPS
      notebooks
         (ALPHA) (DEPRECATED) Notebooks Command Group.
 
+     number-registry
+        (ALPHA) Manage cloud number registry resources.
+
      organizations
         (ALPHA) Create and manage Google Cloud Platform Organizations.
+
+     pam
+        (ALPHA) Manage Privileged Access Manager (PAM) entitlements and grants.
 
      policy-troubleshoot
         (ALPHA) Troubleshoot Google Cloud Platform policies.
