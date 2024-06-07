@@ -319,6 +319,10 @@ GROUPS
      logging
         (BETA) Manage Cloud Logging.
 
+     managed-kafka
+        (BETA) Administer Apache Kafka for BigQuery clusters, topics, and
+        consumer groups.
+
      memcache
         (BETA) Manage Cloud Memorystore Memcached resources.
 
