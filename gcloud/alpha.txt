@@ -223,6 +223,9 @@ GROUPS
      blockchain-node-engine
         (ALPHA) Create and manipulate Blockchain Node Engine resources.
 
+     blockchain-validator
+        (ALPHA) Manage blockchain validator configurations.
+
      bms
         (ALPHA) Manage Bare Metal Solution resources.
 
