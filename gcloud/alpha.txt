@@ -404,9 +404,6 @@ GROUPS
      notebooks
         (ALPHA) (DEPRECATED) Notebooks Command Group.
 
-     number-registry
-        (ALPHA) Manage cloud number registry resources.
-
      organizations
         (ALPHA) Create and manage Google Cloud Platform Organizations.
 
@@ -426,6 +423,9 @@ GROUPS
      pubsub
         (ALPHA) Manage Cloud Pub/Sub topics, subscriptions, and snapshots.
 
+     quotas
+        (ALPHA) Manage Cloud Quotas quota info and quota preferences.
+
      recaptcha
         (ALPHA) Manage reCAPTCHA Enterprise Keys.
 
@@ -443,7 +443,7 @@ GROUPS
         (ALPHA) Manage Cloud Resources.
 
      resource-settings
-        (ALPHA) Create and manage Resource Settings.
+        (ALPHA) (DEPRECATED) Create and manage Resource Settings.
 
      run
         (ALPHA) Manage your Cloud Run applications.
