@@ -384,6 +384,9 @@ GROUPS
      organizations
         Create and manage Google Cloud Platform Organizations.
 
+     pam
+        Manage Privileged Access Manager (PAM) entitlements and grants.
+
      policy-intelligence
         A platform to help better understand, use and manage policies at scale.
 
