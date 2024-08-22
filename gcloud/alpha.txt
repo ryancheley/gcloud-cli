@@ -28,8 +28,8 @@ GLOBAL FLAGS
         set --help to see more information about billing/quota_project.
 
      --configuration=CONFIGURATION
-        The configuration to use for this command invocation. For more
-        information on how to use configurations, run: gcloud topic
+        File name of the configuration to use for this command invocation. For
+        more information on how to use configurations, run: gcloud topic
         configurations. You can also use the CLOUDSDK_ACTIVE_CONFIG_NAME
         environment variable to set the equivalent of this flag for a terminal
         session.
