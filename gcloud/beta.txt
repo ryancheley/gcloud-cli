@@ -226,6 +226,9 @@ GROUPS
      code
         (BETA) Create and manage a local development environment for Cloud Run.
 
+     colab-enterprise
+        (BETA) Colab Enterprise Command Group.
+
      composer
         (BETA) Create and manage Cloud Composer Environments.
 
@@ -320,8 +323,8 @@ GROUPS
         (BETA) Manage Cloud Logging.
 
      managed-kafka
-        (BETA) Administer Apache Kafka for BigQuery clusters, topics, and
-        consumer groups.
+        (BETA) Administer Managed Service for Apache Kafka clusters, topics,
+        and consumer groups.
 
      memcache
         (BETA) Manage Cloud Memorystore Memcached resources.

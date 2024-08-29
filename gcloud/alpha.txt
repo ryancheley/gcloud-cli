@@ -358,8 +358,8 @@ GROUPS
         (ALPHA) Manage Looker resources.
 
      managed-kafka
-        (ALPHA) Administer Apache Kafka for BigQuery clusters, topics, and
-        consumer groups.
+        (ALPHA) Administer Managed Service for Apache Kafka clusters, topics,
+        and consumer groups.
 
      media
         (ALPHA) Manage Cloud Media Services.
