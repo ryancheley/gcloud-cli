@@ -367,6 +367,9 @@ GROUPS
      memcache
         (ALPHA) Manage Cloud Memorystore Memcached resources.
 
+     memorystore
+        (ALPHA) Manage Memorystore resources.
+
      metastore
         (ALPHA) Manage Dataproc Metastore resources.
 

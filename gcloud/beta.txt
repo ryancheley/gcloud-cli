@@ -329,6 +329,9 @@ GROUPS
      memcache
         (BETA) Manage Cloud Memorystore Memcached resources.
 
+     memorystore
+        (BETA) Manage Memorystore resources.
+
      metastore
         (BETA) Manage Dataproc Metastore resources.
 
