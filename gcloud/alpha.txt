@@ -357,9 +357,6 @@ GROUPS
      looker
         (ALPHA) Manage Looker resources.
 
-     managed-flink
-        (ALPHA) Manage Managed Flink resources.
-
      managed-kafka
         (ALPHA) Administer Managed Service for Apache Kafka clusters, topics,
         and consumer groups.
