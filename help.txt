@@ -351,6 +351,9 @@ GROUPS
      metastore
         Manage Dataproc Metastore resources.
 
+     migration
+        The root group for various Cloud Migration teams.
+
      ml
         Use Google Cloud machine learning capabilities.
 
