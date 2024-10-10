@@ -315,6 +315,9 @@ GROUPS
      functions
         Manage Google Cloud Functions.
 
+     gemini
+        Manage code repository index resources.
+
      healthcare
         Manage Cloud Healthcare resources.
 
@@ -381,6 +384,9 @@ GROUPS
      notebooks
         Notebooks Command Group.
 
+     oracle-database
+        Manage Oracle Database resources.
+
      org-policies
         Create and manage Organization Policies.
 
@@ -391,7 +397,8 @@ GROUPS
         Manage Privileged Access Manager (PAM) entitlements and grants.
 
      policy-intelligence
-        A platform to help better understand, use and manage policies at scale.
+        A platform to help better understand, use, and manage policies at
+        scale.
 
      policy-troubleshoot
         Troubleshoot Google Cloud Platform policies.

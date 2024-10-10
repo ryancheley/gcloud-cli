@@ -268,6 +268,9 @@ GROUPS
      deployment-manager
         (BETA) Manage deployments of cloud resources.
 
+     developer-connect
+        (BETA) Manage Developer Connect resources.
+
      dns
         (BETA) Manage your Cloud DNS managed-zones and record-sets.
 
@@ -358,6 +361,9 @@ GROUPS
 
      network-services
         (BETA) Manage Network Services resources.
+
+     notebook-executor
+        (BETA) Notebook Executor Command Group.
 
      notebooks
         (BETA) (DEPRECATED) Notebooks Command Group.
