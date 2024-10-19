@@ -427,9 +427,6 @@ GROUPS
      resource-manager
         Manage Cloud Resources.
 
-     resource-settings
-        (DEPRECATED) Create and manage Resource Settings.
-
      run
         Manage your Cloud Run applications.
 

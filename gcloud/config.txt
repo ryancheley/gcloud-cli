@@ -406,6 +406,10 @@ AVAILABLE PROPERTIES
             Overrides API endpoint for gcloud filestore command group. Defaults
             to https://file.googleapis.com/
 
+         firebasedataconnect
+            Overrides API endpoint for gcloud firebase-data-connect command
+            group. Defaults to https://firebasedataconnect.googleapis.com/
+
          firestore
             Overrides API endpoint for gcloud firestore command group. Defaults
             to https://firestore.googleapis.com/
@@ -599,6 +603,10 @@ AVAILABLE PROPERTIES
 
          transfer
             Overrides API endpoint for gcloud transfer command group.
+
+         transferappliance
+            Overrides API endpoint for gcloud transfer appliances command
+            group. Defaults to https://transferappliance.googleapis.com/
 
          vision
             Overrides API endpoint for gcloud ml vision command group. Defaults

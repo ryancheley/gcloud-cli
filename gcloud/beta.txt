@@ -226,8 +226,11 @@ GROUPS
      code
         (BETA) Create and manage a local development environment for Cloud Run.
 
+     colab
+        (BETA) Manage Colab Enterprise resources.
+
      colab-enterprise
-        (BETA) Colab Enterprise Command Group.
+        (BETA) Manage Colab Enterprise resources.
 
      composer
         (BETA) Create and manage Cloud Composer Environments.
@@ -288,6 +291,9 @@ GROUPS
 
      essential-contacts
         (BETA) Manage Essential Contacts.
+
+     eventarc
+        (BETA) Manage Eventarc resources.
 
      filestore
         (BETA) Create and manipulate Filestore resources.

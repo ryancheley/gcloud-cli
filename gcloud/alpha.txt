@@ -448,9 +448,6 @@ GROUPS
      resource-manager
         (ALPHA) Manage Cloud Resources.
 
-     resource-settings
-        (ALPHA) (DEPRECATED) Create and manage Resource Settings.
-
      run
         (ALPHA) Manage your Cloud Run applications.
 
