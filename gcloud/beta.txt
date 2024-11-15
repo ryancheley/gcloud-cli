@@ -229,9 +229,6 @@ GROUPS
      colab
         (BETA) Manage Colab Enterprise resources.
 
-     colab-enterprise
-        (BETA) Manage Colab Enterprise resources.
-
      composer
         (BETA) Create and manage Cloud Composer Environments.
 
@@ -367,9 +364,6 @@ GROUPS
 
      network-services
         (BETA) Manage Network Services resources.
-
-     notebook-executor
-        (BETA) Notebook Executor Command Group.
 
      notebooks
         (BETA) (DEPRECATED) Notebooks Command Group.

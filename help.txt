@@ -207,6 +207,9 @@ GROUPS
      assured
         Read and manipulate Assured Workloads data controls.
 
+     audit-manager
+        Enroll resources, audit workloads and generate reports.
+
      auth
         Manage oauth2 credentials for the Google Cloud CLI.
 
@@ -236,6 +239,9 @@ GROUPS
 
      cloud-shell
         Manage Google Cloud Shell.
+
+     colab
+        Manage Colab Enterprise resources.
 
      components
         List, install, update, or remove Google Cloud CLI components.
@@ -347,6 +353,10 @@ GROUPS
 
      looker
         Manage Looker resources.
+
+     managed-kafka
+        Administer Managed Service for Apache Kafka clusters, topics, and
+        consumer groups.
 
      memcache
         Manage Cloud Memorystore Memcached resources.
