@@ -413,6 +413,9 @@ GROUPS
      policy-troubleshoot
         Troubleshoot Google Cloud Platform policies.
 
+     preview
+        (PREVIEW) Preview versions of gcloud commands.
+
      privateca
         Manage private Certificate Authorities on Google Cloud.
 

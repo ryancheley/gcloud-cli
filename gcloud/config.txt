@@ -1464,3 +1464,5 @@ NOTES
 
         $ gcloud beta config
 
+        $ gcloud preview config
+
