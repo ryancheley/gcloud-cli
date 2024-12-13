@@ -285,6 +285,9 @@ GROUPS
      deployment-manager
         Manage deployments of cloud resources.
 
+     developer-connect
+        Manage Developer Connect resources.
+
      dns
         Manage your Cloud DNS managed-zones and record-sets.
 
@@ -360,6 +363,9 @@ GROUPS
 
      memcache
         Manage Cloud Memorystore Memcached resources.
+
+     memorystore
+        Manage Memorystore resources.
 
      metastore
         Manage Dataproc Metastore resources.
