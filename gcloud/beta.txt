@@ -387,6 +387,10 @@ GROUPS
      pubsub
         (BETA) Manage Cloud Pub/Sub topics, subscriptions, and snapshots.
 
+     quotas
+        (BETA) Manage Cloud Quotas quota info, quota preferences and quota
+        adjuster settings.
+
      recommender
         (BETA) Manage Cloud recommendations and recommendation rules.
 
@@ -445,6 +449,9 @@ GROUPS
 
      topic
         (BETA) gcloud supplementary help.
+
+     workbench
+        (BETA) Workbench Command Group.
 
      workflows
         (BETA) Manage your Cloud Workflows resources.
