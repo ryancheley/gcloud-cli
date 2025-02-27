@@ -148,10 +148,9 @@ OTHER FLAGS
         command invocation.
 
      --user-output-enabled
-        (DEPRECATED) Print user intended output to the console.
-
-        The --user-output-enabled flag will no longer support the explicit use
-        of the true/false optional value in an upcoming release.
+        Print user intended output to the console. Overrides the default
+        core/user_output_enabled property value for this command invocation.
+        Use --no-user-output-enabled to disable.
 
 GROUPS
     GROUP is one of the following:
@@ -384,6 +383,11 @@ GROUPS
 
      ml-engine
         (ALPHA) Manage AI Platform jobs and models.
+
+     model-armor
+        (ALPHA) Model Armor is a service offering LLM-agnostic security and AI
+        safety measures to mitigate risks associated with large language models
+        (LLMs).
 
      monitoring
         (ALPHA) Manage Cloud Monitoring alerting policies, dashboards,
