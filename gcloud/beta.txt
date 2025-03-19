@@ -373,6 +373,10 @@ GROUPS
      pam
         (BETA) Manage Privileged Access Manager (PAM) entitlements and grants.
 
+     policy-intelligence
+        (BETA) A platform to help better understand, use, and manage policies
+        at scale.
+
      policy-troubleshoot
         (BETA) Troubleshoot Google Cloud Platform policies.
 
