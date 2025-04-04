@@ -213,9 +213,6 @@ GROUPS
      billing
         (BETA) Manage billing accounts and associate them with projects.
 
-     bq
-        (BETA) Manage Bq resources.
-
      builds
         (BETA) Create and manage builds for Google Cloud Build.
 
@@ -415,9 +412,6 @@ GROUPS
 
      runtime-config
         (BETA) Manage runtime configuration resources.
-
-     saas-runtime
-        (BETA) Commands for SaaS Runtime.
 
      scc
         (BETA) Manage Cloud SCC resources.
