@@ -356,6 +356,9 @@ GROUPS
      looker
         Manage Looker resources.
 
+     lustre
+        Manage Lustre resources.
+
      managed-kafka
         Administer Managed Service for Apache Kafka clusters, topics, and
         consumer groups.

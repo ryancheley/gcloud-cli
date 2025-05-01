@@ -356,6 +356,9 @@ GROUPS
      looker
         (ALPHA) Manage Looker resources.
 
+     lustre
+        (ALPHA) Manage Lustre resources.
+
      managed-flink
         (ALPHA) Manage Managed Flink resources.
 
