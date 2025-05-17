@@ -323,6 +323,9 @@ GROUPS
      functions
         (ALPHA) Manage Google Cloud Functions.
 
+     gemini-cloud-assist
+        (ALPHA) Create and manage Gemini Cloud Assist.
+
      genomics
         (ALPHA) Manage Genomics resources.
 
