@@ -518,6 +518,10 @@ AVAILABLE PROPERTIES
             Overrides API endpoint for gcloud notebooks command group. Defaults
             to https://notebooks.googleapis.com/
 
+         observability
+            Overrides API endpoint for gcloud observability command group.
+            Defaults to https://observability.googleapis.com/
+
          orgpolicy
             Overrides API endpoint for gcloud org-policies command group.
             Defaults to https://orgpolicy.googleapis.com/

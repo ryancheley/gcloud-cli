@@ -410,6 +410,9 @@ GROUPS
      notebooks
         Notebooks Command Group.
 
+     observability
+        Manage Observability resources.
+
      oracle-database
         Manage Oracle Database resources.
 

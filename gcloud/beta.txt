@@ -356,7 +356,7 @@ GROUPS
         (BETA) Create and manipulate Cloud NetApp Files resources.
 
      network-connectivity
-        (BETA) Manage Network Connectivity Center resources.
+        (BETA) Manage Network Connectivity resources.
 
      network-management
         (BETA) Manage Network Management resources.
