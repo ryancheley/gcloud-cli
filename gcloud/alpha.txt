@@ -240,6 +240,9 @@ GROUPS
      cloud-shell
         (ALPHA) Manage Google Cloud Shell.
 
+     cloudlocationfinder
+        (ALPHA) Manage Cloudlocationfinder resources.
+
      code
         (ALPHA) Create and manage a local development environment for Cloud
         Run.
