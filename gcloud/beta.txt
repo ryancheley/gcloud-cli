@@ -349,6 +349,11 @@ GROUPS
      ml-engine
         (BETA) Manage AI Platform jobs and models.
 
+     model-armor
+        (BETA) Model Armor is a service offering LLM-agnostic security and AI
+        safety measures to mitigate risks associated with large language models
+        (LLMs).
+
      monitoring
         (BETA) Manage Cloud Monitoring dashboards and notification channels.
 
