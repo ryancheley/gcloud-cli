@@ -111,3 +111,5 @@ NOTES
 
         $ gcloud beta help
 
+        $ gcloud preview help
+

@@ -21,6 +21,9 @@ GROUPS
      authorization-policies
         Manage Network Security AuthorizationPolicies.
 
+     backend-authentication-configs
+        Manage Network Security BackendAuthenticationConfigs.
+
      client-tls-policies
         Manage Network Security ClientTlsPolicies.
 
@@ -32,6 +35,30 @@ GROUPS
 
      gateway-security-policies
         Manage Network Security Gateway Security Policies.
+
+     intercept-deployment-groups
+        Manage Intercept Deployment Group resources.
+
+     intercept-deployments
+        Manage Intercept Deployment resources.
+
+     intercept-endpoint-group-associations
+        Manage Intercept Endpoint Group Association resources.
+
+     intercept-endpoint-groups
+        Manage Intercept Endpoint Group resources.
+
+     mirroring-deployment-groups
+        Manage Mirroring Deployment Group resources.
+
+     mirroring-deployments
+        Manage Mirroring Deployment resources.
+
+     mirroring-endpoint-group-associations
+        Manage Mirroring Endpoint Group Association resources.
+
+     mirroring-endpoint-groups
+        Manage Mirroring Endpoint Group resources.
 
      org-address-groups
         Manage Network Security AddressGroups.

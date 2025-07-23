@@ -327,7 +327,8 @@ GROUPS
         Manage Google Cloud Functions.
 
      gemini
-        Manage code repository index resources.
+        Manage resources associated with Gemini Code Assist and Gemini Cloud
+        Assist.
 
      healthcare
         Manage Cloud Healthcare resources.

@@ -522,6 +522,9 @@ GROUPS
      workstations
         (ALPHA) Manage Cloud Workstations resources.
 
+     zone-management
+        (ALPHA) Zone Management gcloud commands.
+
 COMMANDS
     COMMAND is one of the following:
 

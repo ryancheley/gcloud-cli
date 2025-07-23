@@ -29,3 +29,5 @@ NOTES
 
         $ gcloud beta survey
 
+        $ gcloud preview survey
+
