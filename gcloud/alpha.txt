@@ -387,9 +387,6 @@ GROUPS
      ml
         (ALPHA) Use Google Cloud machine learning capabilities.
 
-     ml-engine
-        (ALPHA) Manage AI Platform jobs and models.
-
      model-armor
         (ALPHA) Model Armor is a service offering LLM-agnostic security and AI
         safety measures to mitigate risks associated with large language models
