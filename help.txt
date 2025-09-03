@@ -485,6 +485,9 @@ GROUPS
      source
         Cloud git repository commands.
 
+     source-manager
+        Manage Secure Source Manager resources.
+
      spanner
         Command groups for Cloud Spanner.
 

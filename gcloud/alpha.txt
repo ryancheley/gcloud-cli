@@ -243,6 +243,9 @@ GROUPS
      cloudlocationfinder
         (ALPHA) Manage Cloudlocationfinder resources.
 
+     cluster-director
+        (ALPHA) Manage Cluster Director resources.
+
      code
         (ALPHA) Create and manage a local development environment for Cloud
         Run.
