@@ -394,7 +394,7 @@ GROUPS
         Create and manipulate Cloud NetApp Files resources.
 
      network-connectivity
-        Manage Network Connectivity Center resources.
+        Manage Network Connectivity resources.
 
      network-management
         Manage Network Management resources.
