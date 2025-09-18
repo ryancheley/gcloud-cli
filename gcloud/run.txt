@@ -29,9 +29,6 @@ GROUPS
      jobs
         View and manage your Cloud Run jobs.
 
-     multi-region-services
-        Manage your Cloud Run multi-region services.
-
      regions
         View available Cloud Run (fully managed) regions.
 
