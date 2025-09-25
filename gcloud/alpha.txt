@@ -286,6 +286,9 @@ GROUPS
      deployment-manager
         (ALPHA) Manage deployments of cloud resources.
 
+     design-center
+        (ALPHA) Manage Application Design Center resources.
+
      developer-connect
         (ALPHA) Manage Developer Connect resources.
 
