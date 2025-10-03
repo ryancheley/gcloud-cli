@@ -242,6 +242,9 @@ GROUPS
      cloud-shell
         Manage Google Cloud Shell.
 
+     cloudlocationfinder
+        Manage Cloudlocationfinder resources.
+
      colab
         Manage Colab Enterprise resources.
 
