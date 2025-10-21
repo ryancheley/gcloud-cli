@@ -118,9 +118,6 @@ GROUPS
      operations
         Read and manipulate Compute Engine operations.
 
-     org-security-policies
-        Manage Compute Engine organization security policies.
-
      os-config
         Manage OS Config tasks for Compute Engine VM instances.
 
@@ -129,9 +126,6 @@ GROUPS
 
      packet-mirrorings
         Manage Compute Engine packet mirroring resources.
-
-     preview-features
-        Read and manipulate Compute Engine Preview Features.
 
      project-info
         Read and manipulate project-level data like quotas and metadata.
