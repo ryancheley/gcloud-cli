@@ -213,6 +213,9 @@ GROUPS
         (ALPHA) Manage secure access to applications with integrated threat and
         data protection.
 
+     biglake
+        (ALPHA) Create and manage Google Cloud BigLake resources.
+
      bigtable
         (ALPHA) Manage your Cloud Bigtable storage.
 
