@@ -414,9 +414,6 @@ GROUPS
      network-connectivity
         (ALPHA) Manage Network Connectivity Center resources.
 
-     network-management
-        (ALPHA) Manage Network Management resources.
-
      network-security
         (ALPHA) Manage Network Security resources.
 
