@@ -248,6 +248,9 @@ GROUPS
      colab
         Manage Colab Enterprise resources.
 
+     compliance-manager
+        Manage Compliance Manager resources.
+
      components
         List, install, update, or remove Google Cloud CLI components.
 
@@ -289,6 +292,9 @@ GROUPS
 
      deployment-manager
         Manage deployments of cloud resources.
+
+     design-center
+        Manage Application Design Center resources.
 
      developer-connect
         Manage Developer Connect resources.
