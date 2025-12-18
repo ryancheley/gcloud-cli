@@ -179,6 +179,9 @@ GROUPS
      api-gateway
         (BETA) Manage Cloud API Gateway resources.
 
+     api-registry
+        (BETA) Manage Cloud API Registry Command Group.
+
      apigee
         (BETA) Manage Apigee resources.
 
@@ -299,6 +302,9 @@ GROUPS
 
      firebase
         (BETA) Work with Google Firebase.
+
+     firebase-data-connect
+        (BETA) Manage Firebase Data Connect resources.
 
      firestore
         (BETA) Manage your Cloud Firestore resources.

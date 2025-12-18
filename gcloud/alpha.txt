@@ -179,6 +179,9 @@ GROUPS
      api-gateway
         (ALPHA) Manage Cloud API Gateway resources.
 
+     api-registry
+        (ALPHA) Manage Cloud API Registry Command Group.
+
      apigee
         (ALPHA) Manage Apigee resources.
 
@@ -328,6 +331,9 @@ GROUPS
 
      firebase
         (ALPHA) Work with Google Firebase.
+
+     firebase-data-connect
+        (ALPHA) Manage Firebase Data Connect resources.
 
      firestore
         (ALPHA) Manage your Cloud Firestore resources.

@@ -221,6 +221,9 @@ GROUPS
      beta
         (BETA) Beta versions of gcloud commands.
 
+     beyondcorp
+        Manage Beyondcorp resources.
+
      bigtable
         Manage your Cloud Bigtable storage.
 
