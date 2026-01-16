@@ -312,6 +312,10 @@ GROUPS
      functions
         (BETA) Manage Google Cloud Functions.
 
+     gemini
+        (BETA) Manage resources associated with Gemini Code Assist and Gemini
+        Cloud Assist.
+
      healthcare
         (BETA) Manage Cloud Healthcare resources.
 
