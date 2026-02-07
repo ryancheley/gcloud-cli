@@ -210,6 +210,9 @@ GROUPS
         (BETA) Manage secure access to applications with integrated threat and
         data protection.
 
+     biglake
+        (BETA) Create and manage Google Cloud BigLake resources.
+
      bigtable
         (BETA) Manage your Cloud Bigtable storage.
 
