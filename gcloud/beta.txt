@@ -231,6 +231,9 @@ GROUPS
      cloud-shell
         (BETA) Manage Google Cloud Shell.
 
+     cluster-director
+        (BETA) Manage Cluster Director resources.
+
      code
         (BETA) Create and manage a local development environment for Cloud Run.
 
@@ -473,6 +476,9 @@ GROUPS
 
      topic
         (BETA) gcloud supplementary help.
+
+     vector-search
+        (BETA) Manage Vector Search data objects.
 
      workbench
         (BETA) Workbench Command Group.
