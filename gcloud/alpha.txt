@@ -164,6 +164,9 @@ GROUPS
      active-directory
         (ALPHA) Manage Managed Microsoft AD resources.
 
+     agent-registry
+        (ALPHA) Manage Agent Registry resources.
+
      ai
         (ALPHA) Manage entities in Vertex AI.
 
@@ -184,6 +187,9 @@ GROUPS
 
      apigee
         (ALPHA) Manage Apigee resources.
+
+     apihub
+        (ALPHA) Manage Apihub resources.
 
      app
         (ALPHA) Manage your App Engine deployments.

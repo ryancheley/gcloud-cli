@@ -191,6 +191,9 @@ GROUPS
      apigee
         Manage Apigee resources.
 
+     apihub
+        Manage Apihub resources.
+
      app
         Manage your App Engine deployments.
 
