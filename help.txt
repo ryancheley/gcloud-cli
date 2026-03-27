@@ -527,6 +527,9 @@ GROUPS
      transfer
         Manage Transfer Service jobs, operations, and agents.
 
+     vector-search
+        Manage Vector Search data objects.
+
      vmware
         Manage Google Cloud VMware Engine resources.
 
