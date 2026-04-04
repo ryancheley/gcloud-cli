@@ -454,6 +454,10 @@ AVAILABLE PROPERTIES
             Overrides API endpoint for gcloud iam command group. Defaults to
             https://iam.googleapis.com/
 
+         iamconnectors
+            Overrides API endpoint for gcloud agent-identity command group.
+            Defaults to https://iamconnectors.googleapis.com/
+
          iamcredentials
             Overrides API endpoint for gcloud iam command group. Defaults to
             https://iamcredentials.googleapis.com/

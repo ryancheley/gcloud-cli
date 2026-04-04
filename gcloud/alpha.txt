@@ -164,6 +164,9 @@ GROUPS
      active-directory
         (ALPHA) Manage Managed Microsoft AD resources.
 
+     agent-identity
+        (ALPHA) Manage Agent Identity resources.
+
      agent-registry
         (ALPHA) Manage Agent Registry resources.
 
