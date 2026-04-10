@@ -388,6 +388,9 @@ GROUPS
      notebooks
         (BETA) (DEPRECATED) Notebooks Command Group.
 
+     observability
+        (BETA) Manage Observability resources.
+
      organizations
         (BETA) Create and manage Google Cloud Platform Organizations.
 

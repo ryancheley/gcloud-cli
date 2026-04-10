@@ -227,6 +227,9 @@ GROUPS
      beyondcorp
         Manage Beyondcorp resources.
 
+     biglake
+        Create and manage Google Cloud BigLake resources.
+
      bigtable
         Manage your Cloud Bigtable storage.
 
@@ -359,9 +362,6 @@ GROUPS
 
      ids
         Manage Cloud IDS.
-
-     immersive-stream
-        Manage Immersive Stream resources.
 
      infra-manager
         Manage Infra Manager resources.

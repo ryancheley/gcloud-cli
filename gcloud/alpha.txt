@@ -368,9 +368,6 @@ GROUPS
      ids
         (ALPHA) Manage Cloud IDS.
 
-     immersive-stream
-        (ALPHA) Manage Immersive Stream resources.
-
      kms
         (ALPHA) Manage cryptographic keys in the cloud.
 
@@ -443,6 +440,9 @@ GROUPS
 
      notebooks
         (ALPHA) (DEPRECATED) Notebooks Command Group.
+
+     observability
+        (ALPHA) Manage Observability resources.
 
      organizations
         (ALPHA) Create and manage Google Cloud Platform Organizations.
