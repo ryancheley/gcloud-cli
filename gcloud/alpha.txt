@@ -500,6 +500,10 @@ GROUPS
      service-extensions
         (ALPHA) Manage Service Extensions resources.
 
+     service-health
+        (ALPHA) Request events that are relevant to your project or
+        organization.
+
      services
         (ALPHA) List, enable and disable APIs and services.
 

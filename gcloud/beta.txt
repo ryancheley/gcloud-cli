@@ -188,6 +188,9 @@ GROUPS
      app
         (BETA) Manage your App Engine deployments.
 
+     app-lifecycle-manager
+        (BETA) Commands for App Lifecycle Manager.
+
      artifacts
         (BETA) Manage Artifact Registry resources.
 
@@ -438,7 +441,7 @@ GROUPS
         (BETA) Manage runtime configuration resources.
 
      saas-runtime
-        (BETA) Commands for SaaS Runtime.
+        (BETA) Commands for App Lifecycle Manager.
 
      scc
         (BETA) Manage Cloud SCC resources.
