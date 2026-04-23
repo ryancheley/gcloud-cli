@@ -155,9 +155,6 @@ OTHER FLAGS
 GROUPS
     GROUP is one of the following:
 
-     compute
-        (PREVIEW) Create and manipulate Compute Engine resources.
-
      config
         (PREVIEW) View and edit Google Cloud CLI properties.
 

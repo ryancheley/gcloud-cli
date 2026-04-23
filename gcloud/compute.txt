@@ -233,9 +233,6 @@ GROUPS
      vpn-tunnels
         Read and manipulate Compute Engine VPN tunnels.
 
-     zone-vm-extension-policies
-        Compute Engine zone VM extension policies.
-
      zones
         List Compute Engine zones.
 
@@ -272,6 +269,4 @@ NOTES
         $ gcloud alpha compute
 
         $ gcloud beta compute
-
-        $ gcloud preview compute
 
