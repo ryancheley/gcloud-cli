@@ -191,6 +191,11 @@ GROUPS
      app-lifecycle-manager
         (BETA) Commands for App Lifecycle Manager.
 
+     app-optimize
+        (BETA) The App Optimize API lets developers and platform administrators
+        monitor and analyze cost and resource utilization data and identify
+        cost optimization opportunities for their applications.
+
      artifacts
         (BETA) Manage Artifact Registry resources.
 
@@ -343,9 +348,6 @@ GROUPS
      kms
         (BETA) Manage cryptographic keys in the cloud.
 
-     lifesciences
-        (BETA) Manage Cloud Life Sciences resources.
-
      logging
         (BETA) Manage Cloud Logging.
 
@@ -458,6 +460,10 @@ GROUPS
      service-extensions
         (BETA) Manage Service Extensions resources.
 
+     service-health
+        (BETA) Request events that are relevant to your project or
+        organization.
+
      services
         (BETA) List, enable and disable APIs and services.
 
@@ -491,6 +497,9 @@ GROUPS
 
      workflows
         (BETA) Manage your Cloud Workflows resources.
+
+     workload-identity
+        (BETA) Manage Workload Identity.
 
      workstations
         (BETA) Manage Cloud Workstations resources.

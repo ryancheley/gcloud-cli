@@ -335,6 +335,9 @@ GROUPS
      essential-contacts
         (ALPHA) Manage Essential Contacts.
 
+     fault-testing
+        (ALPHA) Manage Fault Testing resources.
+
      filestore
         (ALPHA) Create and manipulate Filestore resources.
 
@@ -370,9 +373,6 @@ GROUPS
 
      kms
         (ALPHA) Manage cryptographic keys in the cloud.
-
-     lifesciences
-        (ALPHA) Manage Cloud Life Sciences resources.
 
      logging
         (ALPHA) Manage Cloud Logging.
@@ -440,6 +440,9 @@ GROUPS
 
      notebooks
         (ALPHA) (DEPRECATED) Notebooks Command Group.
+
+     number-registry
+        (ALPHA) Manage Cloud Number Registry resources.
 
      observability
         (ALPHA) Manage Observability resources.
@@ -543,6 +546,9 @@ GROUPS
 
      web-security-scanner
         (ALPHA) Manage Cloud Web Security Scanner resources.
+
+     workload-identity
+        (ALPHA) Manage Workload Identity.
 
      workstations
         (ALPHA) Manage Cloud Workstations resources.

@@ -494,6 +494,9 @@ GROUPS
      service-extensions
         Manage Service Extensions resources.
 
+     service-health
+        Request events that are relevant to your project or organization.
+
      services
         List, enable and disable APIs and services.
 
@@ -538,6 +541,9 @@ GROUPS
 
      workflows
         Manage your Cloud Workflows resources.
+
+     workload-identity
+        Manage Workload Identity.
 
      workspace-add-ons
         Manage Google Workspace Add-ons resources.
