@@ -63,6 +63,27 @@ GROUPS
      gi-versions
         Manage Gi Version resources.
 
+     goldengate-connection-assignments
+        Manage Goldengate Connection Assignment resources.
+
+     goldengate-connection-types
+        Manage Goldengate Connection Type resources.
+
+     goldengate-connections
+        Manage Goldengate Connection resources.
+
+     goldengate-deployment-environments
+        Manage Goldengate Deployment Environment resources.
+
+     goldengate-deployment-types
+        Manage Goldengate Deployment Type resources.
+
+     goldengate-deployment-versions
+        Manage Goldengate Deployment Version resources.
+
+     goldengate-deployments
+        Manage Goldengate Deployment resources.
+
      odb-networks
         Manage Odb Network resources.
 

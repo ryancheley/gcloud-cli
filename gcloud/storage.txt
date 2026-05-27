@@ -38,6 +38,9 @@ GROUPS
      intelligence-configs
         Manage Cloud Storage Intelligence Configurations.
 
+     intelligence-findings
+        Findings for Cloud Storage usage.
+
      managed-folders
         Manage Cloud Storage managed folders.
 
