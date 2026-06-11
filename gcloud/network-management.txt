@@ -18,6 +18,10 @@ GROUPS
      connectivity-tests
         Manage Network Management ConnectivityTests.
 
+     network-monitoring-providers
+        A Network Monitoring Provider manages the enablement state of the
+        Network Insights service.
+
      operations
         Manage Network Management operations.
 

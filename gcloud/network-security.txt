@@ -69,6 +69,9 @@ GROUPS
      org-address-groups
         Manage Network Security AddressGroups.
 
+     secure-access-connect
+        Manage Secure Access Connect resources.
+
      security-profile-groups
         Manage Network Security - Security Profile Groups.
 
