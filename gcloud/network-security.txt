@@ -66,6 +66,9 @@ GROUPS
      mirroring-endpoint-groups
         Manage Mirroring Endpoint Group resources.
 
+     mirroring-endpoints
+        Manage Mirroring Endpoint resources.
+
      org-address-groups
         Manage Network Security AddressGroups.
 

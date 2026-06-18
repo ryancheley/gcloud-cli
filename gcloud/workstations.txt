@@ -58,6 +58,9 @@ COMMANDS
      stop
         Stop a workstation.
 
+     update
+        Update a workstation.
+
 NOTES
     These variants are also available:
 

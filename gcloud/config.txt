@@ -208,6 +208,10 @@ AVAILABLE PROPERTIES
             Overrides API endpoint for gcloud access-context-manager command
             group. Defaults to https://accesscontextmanager.googleapis.com/
 
+         agentidentity
+            Overrides API endpoint for gcloud agent-identity command group.
+            Defaults to https://agentidentity.googleapis.com/
+
          ai
             Overrides API endpoint for gcloud ai command group.
 
@@ -436,6 +440,10 @@ AVAILABLE PROPERTIES
          firestore
             Overrides API endpoint for gcloud firestore command group. Defaults
             to https://firestore.googleapis.com/
+
+         ftp
+            Overrides API endpoint for gcloud storage ftp command group.
+            Defaults to https://ftp.googleapis.com/
 
          genomics
             Overrides API endpoint for gcloud genomics command group. Defaults
