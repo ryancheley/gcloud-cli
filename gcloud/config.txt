@@ -293,10 +293,6 @@ AVAILABLE PROPERTIES
             group. Defaults to
             https://cloudcommerceconsumerprocurement.googleapis.com/
 
-         clouddebugger
-            Overrides API endpoint for gcloud debug command group. Defaults to
-            https://clouddebugger.googleapis.com/
-
          clouddeploy
             Overrides API endpoint for gcloud deploy command group. Defaults to
             https://clouddeploy.googleapis.com/
@@ -370,6 +366,10 @@ AVAILABLE PROPERTIES
             Overrides API endpoint for gcloud data-fusion command group.
             Defaults to https://datafusion.googleapis.com/
 
+         datalineage
+            Overrides API endpoint for gcloud datalineage command group.
+            Defaults to https://datalineage.googleapis.com/
+
          datamigration
             Overrides API endpoint for gcloud database-migration command group.
             Defaults to https://datamigration.googleapis.com/
@@ -401,6 +401,10 @@ AVAILABLE PROPERTIES
          developerconnect
             Overrides API endpoint for gcloud developer-connect command group.
             Defaults to https://developerconnect.googleapis.com/
+
+         devicerun
+            Overrides API endpoint for gcloud device-run command group.
+            Defaults to https://devicerun.googleapis.com/
 
          dns
             Overrides API endpoint for gcloud dns command group. Defaults to

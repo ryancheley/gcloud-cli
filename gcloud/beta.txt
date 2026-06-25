@@ -164,6 +164,9 @@ GROUPS
      active-directory
         (BETA) Manage Managed Microsoft AD resources.
 
+     agent-identity
+        (BETA) Manage Agent Identity resources.
+
      ai
         (BETA) Manage entities in Vertex AI.
 
@@ -268,6 +271,9 @@ GROUPS
 
      dataflow
         (BETA) Manage Google Cloud Dataflow resources.
+
+     datalineage
+        (BETA) Manage Google Cloud Data Lineage resources.
 
      datapipelines
         (BETA) Manage Data Pipelines resources.

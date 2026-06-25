@@ -48,6 +48,9 @@ GROUPS
      tensorboards
         Manage Vertex AI Tensorboards.
 
+     tuning-jobs
+        Manage Vertex AI tuning jobs.
+
 NOTES
     These variants are also available:
 

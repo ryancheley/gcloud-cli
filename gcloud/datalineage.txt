@@ -1,0 +1,27 @@
+NAME
+    gcloud datalineage - manage Google Cloud Data Lineage resources
+
+SYNOPSIS
+    gcloud datalineage GROUP [GCLOUD_WIDE_FLAG ...]
+
+DESCRIPTION
+    Data Lineage is a service that tracks the flow of data within Google Cloud.
+
+GCLOUD WIDE FLAGS
+    These flags are available to all commands: --help.
+
+    Run $ gcloud help for details.
+
+GROUPS
+    GROUP is one of the following:
+
+     config
+        Manage Data Lineage configurations.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha datalineage
+
+        $ gcloud beta datalineage
+

@@ -33,6 +33,9 @@ GROUPS
      go
         Manage Artifact Registry Go modules.
 
+     image-streaming-cache
+        Manage Artifact Registry image streaming caches.
+
      locations
         Manage Artifact Registry resource locations.
 

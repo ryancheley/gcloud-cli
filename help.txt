@@ -284,6 +284,9 @@ GROUPS
      dataflow
         Manage Google Cloud Dataflow resources.
 
+     datalineage
+        Manage Google Cloud Data Lineage resources.
+
      dataplex
         Manage Dataplex resources.
 

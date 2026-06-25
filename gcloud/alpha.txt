@@ -286,6 +286,9 @@ GROUPS
      dataflow
         (ALPHA) Manage Google Cloud Dataflow resources.
 
+     datalineage
+        (ALPHA) Manage Google Cloud Data Lineage resources.
+
      dataplex
         (ALPHA) Manage Dataplex resources.
 
@@ -306,6 +309,9 @@ GROUPS
 
      developer-connect
         (ALPHA) Manage Developer Connect resources.
+
+     device-run
+        (ALPHA) Manage automation sessions and jobs on devices.
 
      dialogflow
         (ALPHA) Interact with and manage Dialogflow agents, entities, and
