@@ -1,0 +1,40 @@
+NAME
+    gcloud agent-registry - manage Agent Registry resources
+
+SYNOPSIS
+    gcloud agent-registry GROUP [GCLOUD_WIDE_FLAG ...]
+
+DESCRIPTION
+    Manage Agent Registry resources.
+
+GCLOUD WIDE FLAGS
+    These flags are available to all commands: --help.
+
+    Run $ gcloud help for details.
+
+GROUPS
+    GROUP is one of the following:
+
+     agents
+        Manage Agent resources.
+
+     bindings
+        Manage Binding resources.
+
+     endpoints
+        Manage Endpoint resources.
+
+     mcp-servers
+        Manage Mcp Server resources.
+
+     operations
+        Manage Operation resources.
+
+     services
+        Manage Service resources.
+
+NOTES
+    This variant is also available:
+
+        $ gcloud alpha agent-registry
+

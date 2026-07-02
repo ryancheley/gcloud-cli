@@ -90,6 +90,12 @@ GROUPS
      tls-inspection-policies
         Manage Network Security TLS Inspection Policies.
 
+     ull-mirroring-collectors
+        Manage Ull Mirroring Collector resources.
+
+     ull-mirroring-engines
+        Manage Ull Mirroring Engine resources.
+
      url-lists
         Manage Network Security Url Lists.
 

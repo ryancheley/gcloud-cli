@@ -485,6 +485,10 @@ AVAILABLE PROPERTIES
             Overrides API endpoint for gcloud ids command group. Defaults to
             https://ids.googleapis.com/
 
+         kmsinventory
+            Overrides API endpoint for gcloud kms inventory command group.
+            Defaults to https://kmsinventory.googleapis.com/
+
          krmapihosting
             Overrides API endpoint for gcloud anthos config controller command
             group. Defaults to https://krmapihosting.googleapis.com/

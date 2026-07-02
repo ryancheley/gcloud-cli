@@ -170,6 +170,9 @@ GROUPS
      active-directory
         Manage Managed Microsoft AD resources.
 
+     agent-registry
+        Manage Agent Registry resources.
+
      ai
         Manage entities in Vertex AI.
 
