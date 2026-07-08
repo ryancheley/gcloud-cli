@@ -18,6 +18,9 @@ GROUPS
      config
         Manage Data Lineage configurations.
 
+     processes
+        Manage Data Lineage processes.
+
 NOTES
     These variants are also available:
 
