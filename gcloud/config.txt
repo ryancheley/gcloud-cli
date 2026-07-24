@@ -1239,10 +1239,6 @@ AVAILABLE PROPERTIES
             --region flag is required but not provided, the command will fall
             back to this value, if set.
 
-     runapps
-         deployment_service_account
-            Service account to use when deploying integrations.
-
      scc
          organization
             Default organization gcloud should use for scc surface.

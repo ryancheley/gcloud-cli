@@ -18,8 +18,14 @@ GROUPS
      config
         Manage Data Lineage configurations.
 
+     lineage-events
+        Manage Data Lineage events.
+
      processes
         Manage Data Lineage processes.
+
+     runs
+        Manage Data Lineage runs.
 
 NOTES
     These variants are also available:
