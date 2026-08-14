@@ -170,6 +170,9 @@ GROUPS
      active-directory
         Manage Managed Microsoft AD resources.
 
+     agent-identity
+        Manage Agent Identity resources.
+
      agent-registry
         Manage Agent Registry resources.
 
@@ -445,8 +448,7 @@ GROUPS
         Manage Privileged Access Manager (PAM) entitlements and grants.
 
      parametermanager
-        Parameter Manager is a single source of truth to store, access and
-        manage the lifecycle of your application parameters.
+        Parameter Manager is a single source of truth for your parameters.
 
      policy-intelligence
         A platform to help better understand, use, and manage policies at
@@ -469,6 +471,10 @@ GROUPS
 
      pubsub
         Manage Cloud Pub/Sub topics, subscriptions, and snapshots.
+
+     quotas
+        Manage Cloud Quotas quota info, quota preferences and quota adjuster
+        settings.
 
      recaptcha
         Manage reCAPTCHA Enterprise Keys.
@@ -520,6 +526,9 @@ GROUPS
 
      storage
         Create and manage Cloud Storage buckets and objects.
+
+     support
+        Manage Support resources.
 
      tasks
         Manage Cloud Tasks queues and tasks.

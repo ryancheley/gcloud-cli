@@ -296,6 +296,9 @@ GROUPS
      developer-connect
         (BETA) Manage Developer Connect resources.
 
+     device-run
+        (BETA) Manage automation sessions and jobs on devices.
+
      dns
         (BETA) Manage your Cloud DNS managed-zones and record-sets.
 
@@ -408,6 +411,10 @@ GROUPS
      pam
         (BETA) Manage Privileged Access Manager (PAM) entitlements and grants.
 
+     parametermanager
+        (BETA) Parameter Manager is a single source of truth for your
+        parameters.
+
      policy-intelligence
         (BETA) A platform to help better understand, use, and manage policies
         at scale.
@@ -484,6 +491,9 @@ GROUPS
 
      sql
         (BETA) Create and manage Google Cloud SQL databases.
+
+     support
+        (BETA) Manage Support resources.
 
      tasks
         (BETA) Manage Cloud Tasks queues and tasks.

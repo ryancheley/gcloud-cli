@@ -21,6 +21,9 @@ GROUPS
      networking
         Manage Distributed Cloud Edge Network resources.
 
+     zones
+        Manage zone operations for Google Distributed Cloud.
+
 NOTES
     This variant is also available:
 

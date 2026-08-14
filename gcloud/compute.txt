@@ -82,6 +82,9 @@ GROUPS
      health-sources
         Manage health sources.
 
+     hosts
+        Read Compute Engine hosts.
+
      http-health-checks
         Read and manipulate HTTP health checks for load balanced instances.
 

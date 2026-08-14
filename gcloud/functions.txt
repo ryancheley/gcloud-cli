@@ -68,6 +68,9 @@ COMMANDS
      set-iam-policy
         Sets IAM policy for a Google Cloud Function.
 
+     upgrade
+        Upgrade a 1st gen Cloud Function to the Cloud Run function.
+
 NOTES
     These variants are also available:
 

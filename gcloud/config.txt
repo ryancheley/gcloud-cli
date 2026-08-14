@@ -329,6 +329,10 @@ AVAILABLE PROPERTIES
             Overrides API endpoint for gcloud compliance-manager command group.
             Defaults to https://cloudsecuritycompliance.googleapis.com/
 
+         cloudsupport
+            Overrides API endpoint for gcloud support command group. Defaults
+            to https://cloudsupport.googleapis.com/
+
          cloudtasks
             Overrides API endpoint for gcloud tasks command group. Defaults to
             https://cloudtasks.googleapis.com/

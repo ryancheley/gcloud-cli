@@ -1,12 +1,13 @@
 NAME
-    gcloud parametermanager - parameter Manager is a single source of truth to
-        store, access and manage the lifecycle of your application parameters
+    gcloud parametermanager - parameter Manager is a single source of truth for
+        your parameters
 
 SYNOPSIS
     gcloud parametermanager GROUP [GCLOUD_WIDE_FLAG ...]
 
 DESCRIPTION
-    Parameter Manager aims to make management of sensitive application
+    Parameter Manager stores, accesses, and manages the lifecycle of your
+    application parameters. It aims to make management of sensitive application
     parameters effortless for customers without diminishing focus on security.
 
 GCLOUD WIDE FLAGS
@@ -19,3 +20,12 @@ GROUPS
 
      parameters
         Manage Parameter Manager parameter resources.
+
+     templates
+        Manage Parameter Manager template resources.
+
+NOTES
+    This variant is also available:
+
+        $ gcloud beta parametermanager
+

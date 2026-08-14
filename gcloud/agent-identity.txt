@@ -1,0 +1,30 @@
+NAME
+    gcloud agent-identity - manage Agent Identity resources
+
+SYNOPSIS
+    gcloud agent-identity GROUP [GCLOUD_WIDE_FLAG ...]
+
+DESCRIPTION
+    Manage Agent Identity resources.
+
+GCLOUD WIDE FLAGS
+    These flags are available to all commands: --help.
+
+    Run $ gcloud help for details.
+
+GROUPS
+    GROUP is one of the following:
+
+     access-summaries
+        Manage Access Summary resources.
+
+     auth-providers
+        Manage Auth Provider resources.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha agent-identity
+
+        $ gcloud beta agent-identity
+
