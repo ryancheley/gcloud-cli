@@ -310,6 +310,9 @@ GROUPS
      developer-connect
         (ALPHA) Manage Developer Connect resources.
 
+     developer-knowledge
+        (ALPHA) Manage Developer Knowledge resources and query knowledge base.
+
      device-run
         (ALPHA) Manage automation sessions and jobs on devices.
 
@@ -376,6 +379,9 @@ GROUPS
 
      ids
         (ALPHA) Manage Cloud IDS.
+
+     infra-manager
+        (ALPHA) Manage Infra Manager resources.
 
      kms
         (ALPHA) Manage cryptographic keys in the cloud.

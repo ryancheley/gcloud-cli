@@ -45,6 +45,12 @@ GROUPS
      persistent-resources
         Create and manage Vertex AI persistent resources.
 
+     semantic-governance-policies
+        Manage Vertex AI Semantic Governance Policy resources.
+
+     semantic-governance-policy-engine
+        Manage Vertex AI Semantic Governance Policy engine.
+
      tensorboards
         Manage Vertex AI Tensorboards.
 
