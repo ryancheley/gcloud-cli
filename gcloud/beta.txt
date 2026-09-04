@@ -405,9 +405,6 @@ GROUPS
      observability
         (BETA) Manage Observability resources.
 
-     orchestration-pipelines
-        (BETA) Manage Orchestration Pipelines resources.
-
      organizations
         (BETA) Create and manage Google Cloud Platform Organizations.
 
