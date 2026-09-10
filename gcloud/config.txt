@@ -1502,6 +1502,14 @@ AVAILABLE PROPERTIES
             should be more robust because it analyzes file contents in addition
             to extensions.
 
+         use_nic_isolation
+            If True, gcloud storage sets CPU affinity to isolate 10% of CPU
+            cores from network hardware interrupts on machines with > 16 cores
+            (Linux only). Enable this for high-bandwidth transfers (such as
+            with RAPID storage) to reduce CPU contention between processes used
+            by gcloud parallelism and network interrupts, maximizing
+            throughput.
+
          use_threading_local
             If True, reuses some resource if they are already declared on a
             thread. If False, creates duplicates of resources like API clients

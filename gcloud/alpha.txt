@@ -522,6 +522,9 @@ GROUPS
      services
         (ALPHA) List, enable and disable APIs and services.
 
+     software-delivery-trust
+        (ALPHA) Manage Software Delivery Trust security policies and evidence.
+
      source
         (ALPHA) Cloud git repository commands.
 

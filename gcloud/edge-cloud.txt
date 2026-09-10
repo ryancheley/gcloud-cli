@@ -15,11 +15,23 @@ GCLOUD WIDE FLAGS
 GROUPS
     GROUP is one of the following:
 
+     api-keys
+        Read and manipulate API keys for Google Distributed Cloud.
+
      container
         Manage Edge Container resources.
 
      networking
         Manage Distributed Cloud Edge Network resources.
+
+     projects
+        Google Distributed Cloud Connected Project gcloud commands.
+
+     service-accounts
+        Google Distributed Cloud Service Account gcloud commands.
+
+     services
+        GDC Connected Service gcloud commands.
 
      zones
         Manage zone operations for Google Distributed Cloud.

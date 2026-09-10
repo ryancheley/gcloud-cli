@@ -1,0 +1,53 @@
+NAME
+    gcloud cluster-director - manage Cluster Director resources
+
+SYNOPSIS
+    gcloud cluster-director GROUP [GCLOUD_WIDE_FLAG ...]
+
+DESCRIPTION
+    Cluster Director is a unified management plane that simplifies deploying
+    and running large-scale AI and high-performance computing (HPC) clusters.
+
+    The service automates complex infrastructure setup by integrating compute,
+    networking, and storage to maximize performance and minimize downtimes.
+
+    If you have your own configuration already:
+      ▪ Use --config to provide a complete JSON definition
+
+    To start from a pre-configuration:
+      ▪ Use --quickstart-cluster to create and connect a managed Slurm
+        cluster with basic defaults
+      ▪ Use --reference-architecture to choose from workload-optimized
+        templates
+
+    To fully customize:
+      ▪ Run the 'clusters create' command for the most granular configuration
+        options
+
+    Learn more at https://docs.cloud.google.com/cluster-director/
+
+GCLOUD WIDE FLAGS
+    These flags are available to all commands: --help.
+
+    Run $ gcloud help for details.
+
+GROUPS
+    GROUP is one of the following:
+
+     clusters
+        Deploy and manage large-scale AI and high-performance computing (HPC)
+        clusters.
+
+     locations
+        View supported locations.
+
+     operations
+        Manage Operation resources.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha cluster-director
+
+        $ gcloud beta cluster-director
+

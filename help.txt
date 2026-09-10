@@ -260,6 +260,9 @@ GROUPS
      cloudlocationfinder
         Manage Cloudlocationfinder resources.
 
+     cluster-director
+        Manage Cluster Director resources.
+
      colab
         Manage Colab Enterprise resources.
 

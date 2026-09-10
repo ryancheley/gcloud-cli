@@ -2,7 +2,7 @@ NAME
     gcloud access-context-manager - manage Access Context Manager resources
 
 SYNOPSIS
-    gcloud access-context-manager GROUP [GCLOUD_WIDE_FLAG ...]
+    gcloud access-context-manager GROUP | COMMAND [GCLOUD_WIDE_FLAG ...]
 
 DESCRIPTION
     Policy API for configuring context aware access features and access zones.
@@ -35,6 +35,13 @@ GROUPS
 
      supported-services
         Retrieve VPC Service Controls Supported Services.
+
+COMMANDS
+    COMMAND is one of the following:
+
+     lookup-configured-perimeter
+        Look up the configured VPC Service Controls service perimeter for a
+        resource.
 
 NOTES
     These variants are also available:
