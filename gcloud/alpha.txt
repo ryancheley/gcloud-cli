@@ -72,10 +72,10 @@ GLOBAL FLAGS
         using gcloud config set project PROJECTID.
 
         --project and its fallback core/project property play two roles in the
-        invocation. It specifies the project of the resource to operate on. It
-        also specifies the project for API enablement check, quota, and
-        billing. To specify a different project for quota and billing, use
-        --billing-project or billing/quota_project property.
+        invocation: they specify both the project of the resource to operate
+        on, and the project for API enablement checks, quota, and billing. To
+        specify a different project for quota and billing, use the
+        --billing-project flag or the billing/quota_project property.
 
      --quiet, -q
         Disable all interactive prompts when running gcloud commands. If input
@@ -196,6 +196,9 @@ GROUPS
 
      app
         (ALPHA) Manage your App Engine deployments.
+
+     app-topology
+        (ALPHA) Manage App Topology resources and query topology graphs.
 
      apphub
         (ALPHA) Manage App Hub resources.
@@ -425,8 +428,8 @@ GROUPS
 
      model-armor
         (ALPHA) Model Armor is a service offering LLM-agnostic security and AI
-        safety measures to mitigate risks associated with large language models
-        (LLMs).
+        safety measures to mitigate risks associated with the use of large
+        language models (LLMs).
 
      monitoring
         (ALPHA) Manage Cloud Monitoring alerting policies, dashboards,

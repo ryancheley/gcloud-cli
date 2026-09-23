@@ -1,0 +1,34 @@
+NAME
+    gcloud app-topology - manage App Topology resources and query topology
+        graphs
+
+SYNOPSIS
+    gcloud app-topology GROUP [GCLOUD_WIDE_FLAG ...]
+
+DESCRIPTION
+    Manage App Topology resources and query topology graphs.
+
+GCLOUD WIDE FLAGS
+    These flags are available to all commands: --help.
+
+    Run $ gcloud help for details.
+
+GROUPS
+    GROUP is one of the following:
+
+     domains
+        View App Topology domains.
+
+     locations
+        View App Topology locations.
+
+     resources-graph
+        Query and generate resource topology graphs.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha app-topology
+
+        $ gcloud beta app-topology
+
