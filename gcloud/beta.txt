@@ -72,10 +72,10 @@ GLOBAL FLAGS
         using gcloud config set project PROJECTID.
 
         --project and its fallback core/project property play two roles in the
-        invocation: they specify both the project of the resource to operate
-        on, and the project for API enablement checks, quota, and billing. To
-        specify a different project for quota and billing, use the
-        --billing-project flag or the billing/quota_project property.
+        invocation. It specifies the project of the resource to operate on. It
+        also specifies the project for API enablement check, quota, and
+        billing. To specify a different project for quota and billing, use
+        --billing-project or billing/quota_project property.
 
      --quiet, -q
         Disable all interactive prompts when running gcloud commands. If input
@@ -199,9 +199,6 @@ GROUPS
         monitor and analyze cost and resource utilization data and identify
         cost optimization opportunities for their applications.
 
-     app-topology
-        (BETA) Manage App Topology resources and query topology graphs.
-
      artifacts
         (BETA) Manage Artifact Registry resources.
 
@@ -299,9 +296,6 @@ GROUPS
      developer-connect
         (BETA) Manage Developer Connect resources.
 
-     developer-knowledge
-        (BETA) Manage Developer Knowledge resources and query knowledge base.
-
      device-run
         (BETA) Manage automation sessions and jobs on devices.
 
@@ -384,8 +378,8 @@ GROUPS
 
      model-armor
         (BETA) Model Armor is a service offering LLM-agnostic security and AI
-        safety measures to mitigate risks associated with the use of large
-        language models (LLMs).
+        safety measures to mitigate risks associated with large language models
+        (LLMs).
 
      monitoring
         (BETA) Manage Cloud Monitoring dashboards and notification channels.

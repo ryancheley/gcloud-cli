@@ -91,9 +91,6 @@ GROUPS
      https-health-checks
         Read and manipulate HTTPS health checks for load balanced instances.
 
-     image-views
-        Read image-view resources with regional context.
-
      images
         List, create, and delete Compute Engine images.
 
@@ -163,9 +160,6 @@ GROUPS
 
      project-info
         Read and manipulate project-level data like quotas and metadata.
-
-     project-views
-        Read project views with regional context.
 
      project-zonal-metadata
         Describe and update project zonal metadata.

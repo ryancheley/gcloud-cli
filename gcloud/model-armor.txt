@@ -1,15 +1,14 @@
 NAME
     gcloud model-armor - model Armor is a service offering LLM-agnostic
-        security and AI safety measures to mitigate risks associated with the
-        use of large language models (LLMs)
+        security and AI safety measures to mitigate risks associated with large
+        language models (LLMs)
 
 SYNOPSIS
     gcloud model-armor GROUP [GCLOUD_WIDE_FLAG ...]
 
 DESCRIPTION
     Model Armor is a service offering LLM-agnostic security and AI safety
-    measures to mitigate risks associated with the use of large language models
-    (LLMs).
+    measures to mitigate risks associated with large language models (LLMs).
 
 GCLOUD WIDE FLAGS
     These flags are available to all commands: --help.

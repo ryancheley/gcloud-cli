@@ -248,10 +248,6 @@ AVAILABLE PROPERTIES
             Overrides API endpoint for gcloud app-optimize command group.
             Defaults to https://appoptimize.googleapis.com/
 
-         apptopology
-            Overrides API endpoint for gcloud app-topology command group.
-            Defaults to https://apptopology.googleapis.com/
-
          artifactregistry
             Overrides API endpoint for gcloud artifacts command group. Defaults
             to https://artifactregistry.googleapis.com/
@@ -663,10 +659,6 @@ AVAILABLE PROPERTIES
          transferappliance
             Overrides API endpoint for gcloud transfer appliances command
             group. Defaults to https://transferappliance.googleapis.com/
-
-         useronboarding
-            Overrides API endpoint for gcloud onboarding command group.
-            Defaults to https://useronboarding.googleapis.com/
 
          vectorsearch
             Overrides API endpoint for gcloud vector-search command group.
