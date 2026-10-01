@@ -18,6 +18,9 @@ GROUPS
      operations
         Read and manipulate Assured Workloads operation resources.
 
+     v2
+        Manage Assured Workloads V2 resources.
+
      workloads
         Read and manipulate Assured Workloads resources.
 

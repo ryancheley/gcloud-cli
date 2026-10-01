@@ -1,0 +1,34 @@
+NAME
+    gcloud developer-knowledge - manage Developer Knowledge resources and query
+        knowledge base
+
+SYNOPSIS
+    gcloud developer-knowledge GROUP | COMMAND [GCLOUD_WIDE_FLAG ...]
+
+DESCRIPTION
+    Manage Developer Knowledge resources and query knowledge base.
+
+GCLOUD WIDE FLAGS
+    These flags are available to all commands: --help.
+
+    Run $ gcloud help for details.
+
+GROUPS
+    GROUP is one of the following:
+
+     documents
+        Explore and search Developer Knowledge documents.
+
+COMMANDS
+    COMMAND is one of the following:
+
+     answer-query
+        Answer a natural language query using grounded generation.
+
+NOTES
+    These variants are also available:
+
+        $ gcloud alpha developer-knowledge
+
+        $ gcloud beta developer-knowledge
+

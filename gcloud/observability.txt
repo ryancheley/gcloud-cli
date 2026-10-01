@@ -15,11 +15,17 @@ GCLOUD WIDE FLAGS
 GROUPS
     GROUP is one of the following:
 
+     buckets
+        Commands to create, read, update, and delete Observability Buckets.
+
      scopes
         Manage Scope resources.
 
+     settings
+        Manage Observability settings.
+
      trace-scopes
-        Manage Trace Scope resources.
+        Commands to create, read, update, and delete TraceScopes.
 
 NOTES
     These variants are also available:

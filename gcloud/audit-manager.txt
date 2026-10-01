@@ -19,6 +19,9 @@ GROUPS
      audit-reports
         Command group for Audit Manager Audit Reports.
 
+     audit-schedules
+        Command group for Audit Manager Audit Schedules.
+
      audit-scopes
         Command group for Audit Manager Audit Scopes.
 

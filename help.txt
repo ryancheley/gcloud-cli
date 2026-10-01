@@ -323,6 +323,9 @@ GROUPS
      developer-connect
         Manage Developer Connect resources.
 
+     developer-knowledge
+        Manage Developer Knowledge resources and query knowledge base.
+
      dns
         Manage your Cloud DNS managed-zones and record-sets.
 
