@@ -27,9 +27,6 @@ GROUPS
      datascans
         Manage Dataplex Datascan.
 
-     dbt
-        Ingest dbt-core metadata into Dataplex Knowledge Catalog.
-
      encryption-config
         Manage Dataplex encryption configs.
 

@@ -121,9 +121,6 @@ GROUPS
      machine-types
         Read Compute Engine virtual machine types.
 
-     managed-rulesets
-        Read Cloud Armor managed rulesets.
-
      migration
         Provides Migrate to Virtual Machines (VM migration) service
         functionality.
