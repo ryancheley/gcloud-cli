@@ -542,9 +542,6 @@ GROUPS
      tasks
         Manage Cloud Tasks queues and tasks.
 
-     telco-automation
-        Manage Telco Automation resources.
-
      topic
         gcloud supplementary help.
 

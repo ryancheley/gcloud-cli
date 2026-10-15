@@ -24,6 +24,9 @@ GROUPS
      context
         Manage Dataplex Context.
 
+     data-products
+        Manage Dataplex Data Product resources.
+
      datascans
         Manage Dataplex Datascan.
 

@@ -241,7 +241,7 @@ GROUPS
         (ALPHA) Create and manipulate Blockchain Node Engine resources.
 
      blockchain-validator
-        (ALPHA) Manage blockchain validator configurations.
+        (ALPHA) (DEPRECATED) Manage blockchain validator configurations.
 
      bms
         (ALPHA) Manage Bare Metal Solution resources.
@@ -365,9 +365,6 @@ GROUPS
      functions
         (ALPHA) Manage Google Cloud Functions.
 
-     genomics
-        (ALPHA) Manage Genomics resources.
-
      healthcare
         (ALPHA) Manage Cloud Healthcare resources.
 
@@ -397,9 +394,6 @@ GROUPS
 
      lustre
         (ALPHA) Manage Lustre resources.
-
-     managed-flink
-        (ALPHA) Manage Managed Flink resources.
 
      managed-kafka
         (ALPHA) Administer Managed Service for Apache Kafka clusters, topics,
@@ -545,9 +539,6 @@ GROUPS
 
      tasks
         (ALPHA) Manage Cloud Tasks queues and tasks.
-
-     telco-automation
-        (ALPHA) Manage Telco Automation resources.
 
      terraform
         (ALPHA) Commands related to Terraform management of Google Cloud

@@ -22,6 +22,9 @@ GROUPS
      delta-sharing
         Biglake Delta Sharing Catalogs.
 
+     hive
+        Biglake Hive Catalogs.
+
      iceberg
         Biglake Iceberg REST Catalogs.
 

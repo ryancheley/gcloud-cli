@@ -457,10 +457,6 @@ AVAILABLE PROPERTIES
             Overrides API endpoint for gcloud storage ftp command group.
             Defaults to https://ftp.googleapis.com/
 
-         genomics
-            Overrides API endpoint for gcloud genomics command group. Defaults
-            to https://genomics.googleapis.com/
-
          gkemulticloud
             Overrides API endpoint for gcloud container aws, gcloud container
             azure and gcloud container attached command groups.
