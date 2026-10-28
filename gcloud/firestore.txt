@@ -26,6 +26,9 @@ GROUPS
      backups
         The set of commands to manage backups for Cloud Firestore.
 
+     change-streams
+        Manage Cloud Firestore ChangeStreams.
+
      databases
         Manage Creation of Cloud Firestore in Native mode Database.
 

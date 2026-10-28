@@ -456,6 +456,9 @@ GROUPS
      observability
         (ALPHA) Manage Observability resources.
 
+     onboarding
+        (ALPHA) Manage user onboarding sessions on Google Cloud.
+
      organizations
         (ALPHA) Create and manage Google Cloud Platform Organizations.
 
@@ -520,7 +523,7 @@ GROUPS
         (ALPHA) List, enable and disable APIs and services.
 
      software-delivery-trust
-        (ALPHA) Manage Software Delivery Trust security policies and evidence.
+        (ALPHA) Manage Software Delivery Trust resources.
 
      source
         (ALPHA) Cloud git repository commands.

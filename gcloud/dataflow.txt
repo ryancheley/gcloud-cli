@@ -24,6 +24,9 @@ GCLOUD WIDE FLAGS
 GROUPS
     GROUP is one of the following:
 
+     config-store-settings
+        Manage Dataflow ConfigStore settings.
+
      flex-template
         A group of subcommands for working with Dataflow flex template.
 

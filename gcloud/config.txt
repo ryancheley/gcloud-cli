@@ -1344,6 +1344,12 @@ AVAILABLE PROPERTIES
          download_chunk_size
             Chunk size used for downloading to clouds.
 
+         enable_server_side_hash_validation
+            If True, hashes will be sent to the server in the last request for
+            server-side hash validation during uploads. Client side hash
+            validation is still performed for all uploads. For large uploads,
+            this may cause a slight performance regression.
+
          exponential_sleep_multiplier
             Used in exponential backoff for retrying operations.
 
