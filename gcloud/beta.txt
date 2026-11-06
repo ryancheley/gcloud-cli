@@ -425,8 +425,8 @@ GROUPS
         parameters.
 
      policy-intelligence
-        (BETA) A platform to help better understand, use, and manage policies
-        at scale.
+        (BETA) A platform to help administrators better understand, use, and
+        manage policies at scale.
 
      policy-troubleshoot
         (BETA) Troubleshoot Google Cloud Platform policies.
@@ -522,6 +522,9 @@ GROUPS
 
      workload-identity
         (BETA) Manage Workload Identity.
+
+     workspace-key-access
+        (BETA) Manage Workspace Key Access (KACLS) endpoints and configs.
 
      workstations
         (BETA) Manage Cloud Workstations resources.

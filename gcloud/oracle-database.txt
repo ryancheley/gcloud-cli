@@ -36,6 +36,9 @@ GROUPS
      database-character-sets
         Manage Database Character Set resources.
 
+     database-connections
+        Manage Database Connection resources.
+
      databases
         Manage Database resources.
 

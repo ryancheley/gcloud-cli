@@ -24,14 +24,23 @@ GROUPS
      endpoints
         Manage Endpoint resources.
 
+     findings
+        Manage Finding resources.
+
      mcp-servers
         Manage Mcp Server resources.
 
      operations
         Manage Operation resources.
 
+     publishers
+        Manage Publisher resources.
+
      services
         Manage Service resources.
+
+     skills
+        Manage Skill resources.
 
 NOTES
     This variant is also available:

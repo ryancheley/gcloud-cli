@@ -460,8 +460,8 @@ GROUPS
         Parameter Manager is a single source of truth for your parameters.
 
      policy-intelligence
-        A platform to help better understand, use, and manage policies at
-        scale.
+        A platform to help administrators better understand, use, and manage
+        policies at scale.
 
      policy-troubleshoot
         Troubleshoot Google Cloud Platform policies.

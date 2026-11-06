@@ -562,6 +562,9 @@ GROUPS
      workload-identity
         (ALPHA) Manage Workload Identity.
 
+     workload-manager
+        (ALPHA) Manage Workload Manager resources.
+
      workstations
         (ALPHA) Manage Cloud Workstations resources.
 
