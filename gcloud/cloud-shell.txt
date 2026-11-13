@@ -19,7 +19,8 @@ COMMANDS
     COMMAND is one of the following:
 
      get-mount-command
-        Prints a command to mount the Cloud Shell home directory via sshfs.
+        (DEPRECATED) Prints a command to mount the Cloud Shell home directory
+        via sshfs.
 
      scp
         Copies files between Cloud Shell and the local machine.

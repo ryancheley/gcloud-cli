@@ -1,0 +1,43 @@
+NAME
+    gcloud app-lifecycle-manager - commands for App Lifecycle Manager
+
+SYNOPSIS
+    gcloud app-lifecycle-manager GROUP [GCLOUD_WIDE_FLAG ...]
+
+GCLOUD WIDE FLAGS
+    These flags are available to all commands: --help.
+
+    Run $ gcloud help for details.
+
+GROUPS
+    GROUP is one of the following:
+
+     releases
+        Manage App Lifecycle Manager releases.
+
+     rollout-kinds
+        Manage App Lifecycle Manager rollout kinds.
+
+     rollouts
+        Manage App Lifecycle Manager rollouts.
+
+     saas
+        Manage App Lifecycle Manager SaaS offerings.
+
+     tenants
+        Manage App Lifecycle Manager tenants.
+
+     unit-kinds
+        Manage App Lifecycle Manager unit kinds.
+
+     unit-operations
+        Manage App Lifecycle Manager unit operations.
+
+     units
+        Manage App Lifecycle Manager units.
+
+NOTES
+    This variant is also available:
+
+        $ gcloud beta app-lifecycle-manager
+

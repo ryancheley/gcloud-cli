@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out this repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0
     - name: Configure Git for commits
@@ -19,11 +19,10 @@ jobs:
         git config user.email "actions@users.noreply.github.com"
     - name: Scrape gcloud
       run: |-
-        sudo apt update && sudo apt upgrade
-        sudo apt-get install apt-transport-https ca-certificates gnupg -y
-        echo "deb https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
-        curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+        curl -fsSL https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg
+        echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee /etc/apt/sources.list.d/google-cloud-sdk.list
         sudo apt-get update
+        sudo apt-get install -y google-cloud-cli
         ./gcloud.sh
     - name: Commit and push if it changed
       run: |-
