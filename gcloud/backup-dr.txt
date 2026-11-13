@@ -15,6 +15,15 @@ GCLOUD WIDE FLAGS
 GROUPS
     GROUP is one of the following:
 
+     applied-auto-protection-policies
+        Manage Backup and DR AppliedAutoProtectionPolicies.
+
+     auto-protection-bindings
+        Manage Backup and DR auto protection bindings.
+
+     auto-protection-policies
+        Manage Backup and DR AutoProtectionPolicies.
+
      backup-plan-associations
         Manage Backup and DR backup plan associations.
 
@@ -29,6 +38,9 @@ GROUPS
 
      backups
         Manage Backup and DR backups.
+
+     binding-matching-resources
+        Manage Backup and DR binding matching resources.
 
      data-source-references
         Command group for Backup and DR Data Source References.
@@ -48,6 +60,18 @@ GROUPS
      resource-backup-config
         Show protection summary for resources in a particular location and
         project.
+
+     restore-template-executions
+        Manage Cloud Backup and DR Restore Template Executions.
+
+     restore-templates
+        Manage Cloud Backup and DR Restore Templates.
+
+     restore-verification-plan-associations
+        Manage Backup and DR Restore Verification Plan Associations.
+
+     restore-verification-plans
+        Manage Backup and DR Restore Verification Plans.
 
      service-config
         Manage Backup and DR Service configuration.

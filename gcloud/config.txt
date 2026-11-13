@@ -605,6 +605,10 @@ AVAILABLE PROPERTIES
             Overrides API endpoint for gcloud runtime-config command group.
             Defaults to https://runtimeconfig.googleapis.com/
 
+         saasservicemgmt
+            Overrides API endpoint for gcloud app-lifecycle-manager command
+            group. Defaults to https://saasservicemgmt.googleapis.com/
+
          sddc
             Overrides API endpoint for gcloud vmware sddc command group.
             Defaults to https://sddc.googleapis.com/
@@ -1155,6 +1159,11 @@ AVAILABLE PROPERTIES
             Full path to the Python interpreter to use for Cloud ML Engine
             local predict/train jobs. If not specified, the default path is the
             one to the Python interpreter found on system PATH.
+
+         location
+            Default location to use when working with Recognizer resources.
+            When a location value is required but not provided, the command
+            will fall back to this value, if set.
 
          polling_interval
             Interval (in seconds) at which to poll logs from your Cloud ML

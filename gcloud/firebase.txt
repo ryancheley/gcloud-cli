@@ -18,7 +18,7 @@ GROUPS
     GROUP is one of the following:
 
      test
-        Interact with Firebase Test Lab.
+        (DEPRECATED) Interact with Firebase Test Lab.
 
 NOTES
     These variants are also available:
