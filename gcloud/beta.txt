@@ -182,9 +182,6 @@ GROUPS
      api-gateway
         (BETA) Manage Cloud API Gateway resources.
 
-     api-registry
-        (BETA) Manage Cloud API Registry Command Group.
-
      apigee
         (BETA) Manage Apigee resources.
 
@@ -522,6 +519,9 @@ GROUPS
 
      workload-identity
         (BETA) Manage Workload Identity.
+
+     workspace-add-ons
+        (BETA) Manage Google Workspace Add-ons resources.
 
      workspace-key-access
         (BETA) Manage Workspace Key Access (KACLS) endpoints and configs.

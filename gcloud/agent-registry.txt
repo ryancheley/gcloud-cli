@@ -39,6 +39,9 @@ GROUPS
      services
         Manage Service resources.
 
+     skill-encryption-spec
+        Manage the Skill encryption spec of a location.
+
      skills
         Manage Skill resources.
 

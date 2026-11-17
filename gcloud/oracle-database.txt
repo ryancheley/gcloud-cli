@@ -42,6 +42,9 @@ GROUPS
      databases
         Manage Database resources.
 
+     db-system-compute-performances
+        Manage Db System Compute Performance resources.
+
      db-system-initial-storage-sizes
         Manage Db System Initial Storage Size resources.
 
@@ -62,6 +65,9 @@ GROUPS
 
      exascale-db-storage-vaults
         Manage Exascale Db Storage Vault resources.
+
+     flex-components
+        Manage Flex Component resources.
 
      gi-versions
         Manage Gi Version resources.

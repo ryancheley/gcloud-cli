@@ -202,152 +202,170 @@ AVAILABLE PROPERTIES
      api_endpoint_overrides
          accessapproval
             Overrides API endpoint for gcloud access-approval command group.
-            Defaults to https://accessapproval.googleapis.com/
+            Defaults to the accessapproval service endpoint for the active
+            universe domain.
 
          accesscontextmanager
             Overrides API endpoint for gcloud access-context-manager command
-            group. Defaults to https://accesscontextmanager.googleapis.com/
+            group. Defaults to the accesscontextmanager service endpoint for
+            the active universe domain.
 
          agentidentity
             Overrides API endpoint for gcloud agent-identity command group.
-            Defaults to https://agentidentity.googleapis.com/
+            Defaults to the agentidentity service endpoint for the active
+            universe domain.
 
          ai
             Overrides API endpoint for gcloud ai command group.
 
          aiplatform
             Overrides API endpoint for gcloud ai-platform command group.
-            Defaults to https://aiplatform.googleapis.com/
+            Defaults to the aiplatform service endpoint for the active universe
+            domain.
 
          anthosevents
             Overrides API endpoint for gcloud anthos command group. Defaults to
-            https://anthosevents.googleapis.com/
+            the anthosevents service endpoint for the active universe domain.
 
          anthospolicycontrollerstatus_pa
             Overrides API endpoint for gcloud container fleet policycontroller
-            command group. Defaults to
-            https://anthospolicycontrollerstatus-pa.googleapis.com/
+            command group. Defaults to the anthospolicycontrollerstatus_pa
+            service endpoint for the active universe domain.
 
          apigateway
             Overrides API endpoint for gcloud api-gateway command group.
-            Defaults to https://apigateway.googleapis.com/
+            Defaults to the apigateway service endpoint for the active universe
+            domain.
 
          apigee
             Overrides API endpoint for gcloud apigee command group. Defaults to
-            https://apigee.googleapis.com/
+            the apigee service endpoint for the active universe domain.
 
          appengine
             Overrides API endpoint for gcloud app command group. Defaults to
-            https://appengine.googleapis.com/
+            the appengine service endpoint for the active universe domain.
 
          apphub
             Overrides API endpoint for gcloud apphub command group. Defaults to
-            https://apphub.googleapis.com/
+            the apphub service endpoint for the active universe domain.
 
          appoptimize
             Overrides API endpoint for gcloud app-optimize command group.
-            Defaults to https://appoptimize.googleapis.com/
+            Defaults to the appoptimize service endpoint for the active
+            universe domain.
 
          apptopology
             Overrides API endpoint for gcloud app-topology command group.
-            Defaults to https://apptopology.googleapis.com/
+            Defaults to the apptopology service endpoint for the active
+            universe domain.
 
          artifactregistry
             Overrides API endpoint for gcloud artifacts command group. Defaults
-            to https://artifactregistry.googleapis.com/
+            to the artifactregistry service endpoint for the active universe
+            domain.
 
          assuredworkloads
             Overrides API endpoint for gcloud assured command group. Defaults
-            to https://assuredworkloads.googleapis.com/
+            to the assuredworkloads service endpoint for the active universe
+            domain.
 
          auditmanager
             Overrides API endpoint for gcloud audit-manager command group.
-            Defaults to https://auditmanager.googleapis.com/
+            Defaults to the auditmanager service endpoint for the active
+            universe domain.
 
          baremetalsolution
             Overrides API endpoint for gcloud bms command group. Defaults to
-            https://baremetalsolution.googleapis.com/
+            the baremetalsolution service endpoint for the active universe
+            domain.
 
          bigtableadmin
             Overrides API endpoint for gcloud bigtable command group. Defaults
-            to https://bigtableadmin.googleapis.com/
+            to the bigtableadmin service endpoint for the active universe
+            domain.
 
          certificatemanager
             Overrides API endpoint for gcloud certificate-manager command
-            group. Defaults to https://certificatemanager.googleapis.com/
-
-         cloudapiregistry
-            Overrides API endpoint for gcloud api-registry command group.
-            Defaults to https://cloudapiregistry.googleapis.com/
+            group. Defaults to the certificatemanager service endpoint for the
+            active universe domain.
 
          cloudasset
             Overrides API endpoint for gcloud asset command group. Defaults to
-            https://cloudasset.googleapis.com/
+            the cloudasset service endpoint for the active universe domain.
 
          cloudbilling
             Overrides API endpoint for gcloud billing command group. Defaults
-            to https://cloudbilling.googleapis.com/
+            to the cloudbilling service endpoint for the active universe
+            domain.
 
          cloudbuild
             Overrides API endpoint for gcloud builds command group. Defaults to
-            https://cloudbuild.googleapis.com/
+            the cloudbuild service endpoint for the active universe domain.
 
          cloudcommerceconsumerprocurement
             Overrides API endpoint for gcloud commerce-procurement command
-            group. Defaults to
-            https://cloudcommerceconsumerprocurement.googleapis.com/
+            group. Defaults to the cloudcommerceconsumerprocurement service
+            endpoint for the active universe domain.
 
          clouddeploy
             Overrides API endpoint for gcloud deploy command group. Defaults to
-            https://clouddeploy.googleapis.com/
+            the clouddeploy service endpoint for the active universe domain.
 
          clouderrorreporting
             Overrides API endpoint for gcloud error-reporting command group.
-            Defaults to https://clouderrorreporting.googleapis.com/
+            Defaults to the clouderrorreporting service endpoint for the active
+            universe domain.
 
          cloudfunctions
             Overrides API endpoint for gcloud functions command group. Defaults
-            to https://cloudfunctions.googleapis.com/
+            to the cloudfunctions service endpoint for the active universe
+            domain.
 
          cloudidentity
             Overrides API endpoint for gcloud identity command group. Defaults
-            to https://cloudidentity.googleapis.com/
+            to the cloudidentity service endpoint for the active universe
+            domain.
 
          cloudkms
             Overrides API endpoint for gcloud kms command group. Defaults to
-            https://cloudkms.googleapis.com/
+            the cloudkms service endpoint for the active universe domain.
 
          cloudlocationfinder
             Overrides API endpoint for gcloud cloudlocationfinder command
-            group. Defaults to https://cloudlocationfinder.googleapis.com/
+            group. Defaults to the cloudlocationfinder service endpoint for the
+            active universe domain.
 
          cloudresourcemanager
             Overrides API endpoint for gcloud projects command group. Defaults
-            to https://cloudresourcemanager.googleapis.com/
+            to the cloudresourcemanager service endpoint for the active
+            universe domain.
 
          cloudscheduler
             Overrides API endpoint for gcloud scheduler command group. Defaults
-            to https://cloudscheduler.googleapis.com/
+            to the cloudscheduler service endpoint for the active universe
+            domain.
 
          cloudsecuritycompliance
             Overrides API endpoint for gcloud compliance-manager command group.
-            Defaults to https://cloudsecuritycompliance.googleapis.com/
+            Defaults to the cloudsecuritycompliance service endpoint for the
+            active universe domain.
 
          cloudsupport
             Overrides API endpoint for gcloud support command group. Defaults
-            to https://cloudsupport.googleapis.com/
+            to the cloudsupport service endpoint for the active universe
+            domain.
 
          cloudtasks
             Overrides API endpoint for gcloud tasks command group. Defaults to
-            https://cloudtasks.googleapis.com/
+            the cloudtasks service endpoint for the active universe domain.
 
          cloudtrace
             Overrides API endpoint for gcloud trace command group. Defaults to
-            https://cloudtrace.googleapis.com/
+            the cloudtrace service endpoint for the active universe domain.
 
          composer
             Overrides API endpoint for gcloud composer command group. Defaults
-            to https://composer.googleapis.com/
+            to the composer service endpoint for the active universe domain.
 
          compute
             Overrides API endpoint for gcloud compute command group. For
@@ -356,106 +374,121 @@ AVAILABLE PROPERTIES
 
          config
             Overrides API endpoint for gcloud infra-manager command group.
-            Defaults to https://config.googleapis.com/
+            Defaults to the config service endpoint for the active universe
+            domain.
 
          container
             Overrides API endpoint for gcloud container command group. Defaults
-            to https://container.googleapis.com/
+            to the container service endpoint for the active universe domain.
 
          datacatalog
             Overrides API endpoint for gcloud data-catalog command group.
-            Defaults to https://datacatalog.googleapis.com/
+            Defaults to the datacatalog service endpoint for the active
+            universe domain.
 
          dataflow
             Overrides API endpoint for gcloud dataflow command group. Defaults
-            to https://dataflow.googleapis.com/
+            to the dataflow service endpoint for the active universe domain.
 
          datafusion
             Overrides API endpoint for gcloud data-fusion command group.
-            Defaults to https://datafusion.googleapis.com/
+            Defaults to the datafusion service endpoint for the active universe
+            domain.
 
          datalineage
             Overrides API endpoint for gcloud datalineage command group.
-            Defaults to https://datalineage.googleapis.com/
+            Defaults to the datalineage service endpoint for the active
+            universe domain.
 
          datamigration
             Overrides API endpoint for gcloud database-migration command group.
-            Defaults to https://datamigration.googleapis.com/
+            Defaults to the datamigration service endpoint for the active
+            universe domain.
 
          datapipelines
             Overrides API endpoint for gcloud datapipelines command group.
-            Defaults to https://datapipelines.googleapis.com/
+            Defaults to the datapipelines service endpoint for the active
+            universe domain.
 
          dataplex
             Overrides API endpoint for gcloud dataplex command group. Defaults
-            to https://dataplex.googleapis.com/
+            to the dataplex service endpoint for the active universe domain.
 
          dataproc
             Overrides API endpoint for gcloud dataproc command group. Defaults
-            to https://dataproc.googleapis.com/
+            to the dataproc service endpoint for the active universe domain.
 
          datastore
             Overrides API endpoint for gcloud datastore command group. Defaults
-            to https://datastore.googleapis.com/
+            to the datastore service endpoint for the active universe domain.
 
          datastream
             Overrides API endpoint for gcloud datastream command group.
-            Defaults to https://datastream.googleapis.com/
+            Defaults to the datastream service endpoint for the active universe
+            domain.
 
          deploymentmanager
             Overrides API endpoint for gcloud deployment-manager command group.
-            Defaults to https://deploymentmanager.googleapis.com/
+            Defaults to the deploymentmanager service endpoint for the active
+            universe domain.
 
          developerconnect
             Overrides API endpoint for gcloud developer-connect command group.
-            Defaults to https://developerconnect.googleapis.com/
+            Defaults to the developerconnect service endpoint for the active
+            universe domain.
 
          devicerun
             Overrides API endpoint for gcloud device-run command group.
-            Defaults to https://devicerun.googleapis.com/
+            Defaults to the devicerun service endpoint for the active universe
+            domain.
 
          dns
             Overrides API endpoint for gcloud dns command group. Defaults to
-            https://dns.googleapis.com/dns/v1/
+            the dns service endpoint for the active universe domain.
 
          domains
             Overrides API endpoint for gcloud domains command group. Defaults
-            to https://domains.googleapis.com/
+            to the domains service endpoint for the active universe domain.
 
          edgecontainer
             Overrides API endpoint for gcloud edge-container command group.
-            Defaults to https://edgecontainer.googleapis.com/
+            Defaults to the edgecontainer service endpoint for the active
+            universe domain.
 
          eventarc
             Overrides API endpoint for gcloud eventarc command group. Defaults
-            to https://eventarc.googleapis.com/
+            to the eventarc service endpoint for the active universe domain.
 
          eventarcpublishing
             Overrides API endpoint for gcloud eventarc publish command group.
-            Defaults to https://eventarcpublishing.googleapis.com/
+            Defaults to the eventarcpublishing service endpoint for the active
+            universe domain.
 
          faultinjectiontesting
             Overrides API endpoint for gcloud fault-injection command group.
 
          faulttesting
             Overrides API endpoint for gcloud fault-testing command group.
-            Defaults to https://faulttesting.googleapis.com/
+            Defaults to the faulttesting service endpoint for the active
+            universe domain.
 
          file
             Overrides API endpoint for gcloud filestore command group. Defaults
-            to https://file.googleapis.com/
+            to the file service endpoint for the active universe domain.
 
          firebasedataconnect
             Overrides API endpoint for gcloud firebase-data-connect command
-            group. Defaults to https://firebasedataconnect.googleapis.com/
+            group. Defaults to the firebasedataconnect service endpoint for the
+            active universe domain.
 
          firestore
             Overrides API endpoint for gcloud firestore command group. Defaults
-            to https://firestore.googleapis.com/
+            to the firestore service endpoint for the active universe domain.
 
          ftp
             Overrides API endpoint for gcloud storage ftp command group.
-            Defaults to https://ftp.googleapis.com/
+            Defaults to the ftp service endpoint for the active universe
+            domain.
 
          gkemulticloud
             Overrides API endpoint for gcloud container aws, gcloud container
@@ -463,179 +496,205 @@ AVAILABLE PROPERTIES
 
          healthcare
             Overrides API endpoint for gcloud healthcare command group.
-            Defaults to https://healthcare.googleapis.com/
+            Defaults to the healthcare service endpoint for the active universe
+            domain.
 
          hypercomputecluster
             Overrides API endpoint for gcloud cluster-director command group.
-            Defaults to https://hypercomputecluster.googleapis.com/
+            Defaults to the hypercomputecluster service endpoint for the active
+            universe domain.
 
          iam
             Overrides API endpoint for gcloud iam command group. Defaults to
-            https://iam.googleapis.com/
+            the iam service endpoint for the active universe domain.
 
          iamconnectors
             Overrides API endpoint for gcloud agent-identity command group.
-            Defaults to https://iamconnectors.googleapis.com/
+            Defaults to the iamconnectors service endpoint for the active
+            universe domain.
 
          iamcredentials
             Overrides API endpoint for gcloud iam command group. Defaults to
-            https://iamcredentials.googleapis.com/
+            the iamcredentials service endpoint for the active universe domain.
 
          iap
             Overrides API endpoint for gcloud iap command group. Defaults to
-            https://iap.googleapis.com/
+            the iap service endpoint for the active universe domain.
 
          ids
             Overrides API endpoint for gcloud ids command group. Defaults to
-            https://ids.googleapis.com/
+            the ids service endpoint for the active universe domain.
 
          kmsinventory
             Overrides API endpoint for gcloud kms inventory command group.
-            Defaults to https://kmsinventory.googleapis.com/
+            Defaults to the kmsinventory service endpoint for the active
+            universe domain.
 
          krmapihosting
             Overrides API endpoint for gcloud anthos config controller command
-            group. Defaults to https://krmapihosting.googleapis.com/
+            group. Defaults to the krmapihosting service endpoint for the
+            active universe domain.
 
          language
             Overrides API endpoint for gcloud ml language command group.
-            Defaults to https://language.googleapis.com/
+            Defaults to the language service endpoint for the active universe
+            domain.
 
          logging
             Overrides API endpoint for gcloud logging command group. Defaults
-            to https://logging.googleapis.com/
+            to the logging service endpoint for the active universe domain.
 
          looker
             Overrides API endpoint for gcloud looker command group. Defaults to
-            https://looker.googleapis.com/
+            the looker service endpoint for the active universe domain.
 
          managedidentities
             Overrides API endpoint for gcloud active-directory command group.
-            Defaults to https://managedidentities.googleapis.com/
+            Defaults to the managedidentities service endpoint for the active
+            universe domain.
 
          marketplacesolutions
             Overrides API endpoint for gcloud mps command group. Defaults to
-            https://marketplacesolutions.googleapis.com/
+            the marketplacesolutions service endpoint for the active universe
+            domain.
 
          mediaasset
             Overrides API endpoint for gcloud media command group. Defaults to
-            https://mediaasset.googleapis.com/
+            the mediaasset service endpoint for the active universe domain.
 
          memcache
             Overrides API endpoint for gcloud memcache command group. Defaults
-            to https://memcache.googleapis.com/
+            to the memcache service endpoint for the active universe domain.
 
          metastore
             Overrides API endpoint for gcloud metastore command group. Defaults
-            to https://metastore.googleapis.com/
+            to the metastore service endpoint for the active universe domain.
 
          monitoring
             Overrides API endpoint for gcloud monitoring command group.
-            Defaults to https://monitoring.googleapis.com/
+            Defaults to the monitoring service endpoint for the active universe
+            domain.
 
          netapp
             Overrides API endpoint for gcloud netapp command group. Defaults to
-            https://netapp.googleapis.com/
+            the netapp service endpoint for the active universe domain.
 
          networkconnectivity
             Overrides API endpoint for gcloud network-connectivity command
-            group. Defaults to https://networkconnectivity.googleapis.com/
+            group. Defaults to the networkconnectivity service endpoint for the
+            active universe domain.
 
          networkmanagement
             Overrides API endpoint for gcloud network-management command group.
-            Defaults to https://networkmanagement.googleapis.com/
+            Defaults to the networkmanagement service endpoint for the active
+            universe domain.
 
          networksecurity
             Overrides API endpoint for gcloud network-security command group.
-            Defaults to https://networksecurity.googleapis.com/
+            Defaults to the networksecurity service endpoint for the active
+            universe domain.
 
          networkservices
             Overrides API endpoint for gcloud network-services command group.
-            Defaults to https://networkservices.googleapis.com/
+            Defaults to the networkservices service endpoint for the active
+            universe domain.
 
          notebooks
             Overrides API endpoint for gcloud notebooks command group. Defaults
-            to https://notebooks.googleapis.com/
+            to the notebooks service endpoint for the active universe domain.
 
          observability
             Overrides API endpoint for gcloud observability command group.
-            Defaults to https://observability.googleapis.com/
+            Defaults to the observability service endpoint for the active
+            universe domain.
 
          orgpolicy
             Overrides API endpoint for gcloud org-policies command group.
-            Defaults to https://orgpolicy.googleapis.com/
+            Defaults to the orgpolicy service endpoint for the active universe
+            domain.
 
          policyanalyzer
-            Overrides API endpoint for policy-intelligence command group.
-            Defaults to https://policyanalyzer.googleapis.com/
+            Overrides API endpoint for gcloud policy-intelligence command
+            group. Defaults to the policyanalyzer service endpoint for the
+            active universe domain.
 
          privateca
             Overrides API endpoint for gcloud privateca command group. Defaults
-            to https://privateca.googleapis.com/
+            to the privateca service endpoint for the active universe domain.
 
          privilegedaccessmanager
             Overrides API endpoint for gcloud pam command group. Defaults to
-            https://privilegedaccessmanager.googleapis.com/
+            the privilegedaccessmanager service endpoint for the active
+            universe domain.
 
          publicca
             Overrides API endpoint for gcloud publicca command group. Defaults
-            to https://publicca.googleapis.com/
+            to the publicca service endpoint for the active universe domain.
 
          pubsub
             Overrides API endpoint for gcloud pubsub command group. Defaults to
-            https://pubsub.googleapis.com/
+            the pubsub service endpoint for the active universe domain.
 
          recaptchaenterprise
             Overrides API endpoint for gcloud recaptcha command group. Defaults
-            to https://recaptchaenterprise.googleapis.com/
+            to the recaptchaenterprise service endpoint for the active universe
+            domain.
 
          recommender
             Overrides API endpoint for gcloud recommender command group.
-            Defaults to https://recommender.googleapis.com/
+            Defaults to the recommender service endpoint for the active
+            universe domain.
 
          redis
             Overrides API endpoint for gcloud redis command group. Defaults to
-            https://redis.googleapis.com/
+            the redis service endpoint for the active universe domain.
 
          run
             Overrides API endpoint for gcloud run command group. Defaults to
-            https://run.googleapis.com/
+            the run service endpoint for the active universe domain.
 
          runtimeconfig
             Overrides API endpoint for gcloud runtime-config command group.
-            Defaults to https://runtimeconfig.googleapis.com/
+            Defaults to the runtimeconfig service endpoint for the active
+            universe domain.
 
          saasservicemgmt
             Overrides API endpoint for gcloud app-lifecycle-manager command
-            group. Defaults to https://saasservicemgmt.googleapis.com/
+            group. Defaults to the saasservicemgmt service endpoint for the
+            active universe domain.
 
          sddc
             Overrides API endpoint for gcloud vmware sddc command group.
-            Defaults to https://sddc.googleapis.com/
+            Defaults to the sddc service endpoint for the active universe
+            domain.
 
          secretmanager
             Overrides API endpoint for gcloud secrets command group. Defaults
-            to https://secretmanager.googleapis.com/
+            to the secretmanager service endpoint for the active universe
+            domain.
 
          securitycenter
             Overrides API endpoint for gcloud scc command group. Defaults to
-            https://securitycenter.googleapis.com/
+            the securitycenter service endpoint for the active universe domain.
 
          servicedirectory
             Overrides API endpoint for gcloud service-directory command group.
-            Defaults to https://servicedirectory.googleapis.com/
+            Defaults to the servicedirectory service endpoint for the active
+            universe domain.
 
          servicehealth
-            Overrides API endpoint for gcloud servicehealth command group.
-            Defaults to https://servicehealth.googleapis.com/
+            Overrides API endpoint for gcloud service-health command group.
+            Defaults to the servicehealth service endpoint for the active
+            universe domain.
 
          servicemanagement
             Overrides API endpoint for gcloud endpoints command group. Defaults
-            to https://servicemanagement.googleapis.com/
+            to the servicemanagement service endpoint for the active universe
+            domain.
 
          sourcerepo
             Overrides API endpoint for gcloud source command group. Defaults to
-            https://sourcerepo.googleapis.com/
+            the sourcerepo service endpoint for the active universe domain.
 
          spanner
             Overrides API endpoint for gcloud spanner command group. For
@@ -644,57 +703,64 @@ AVAILABLE PROPERTIES
 
          speech
             Overrides API endpoint for gcloud ml speech command group. Defaults
-            to https://speech.googleapis.com/
+            to the speech service endpoint for the active universe domain.
 
          sql
             Overrides API endpoint for gcloud sql command group.
 
          storage
             Overrides API endpoint for gcloud storage command group. Defaults
-            to https://storage.googleapis.com/storage/v1/
+            to the storage service endpoint for the active universe domain.
 
          testing
             Overrides API endpoint for gcloud firebase test command group.
-            Defaults to https://testing.googleapis.com/
+            Defaults to the testing service endpoint for the active universe
+            domain.
 
          transfer
             Overrides API endpoint for gcloud transfer command group.
 
          transferappliance
             Overrides API endpoint for gcloud transfer appliances command
-            group. Defaults to https://transferappliance.googleapis.com/
+            group. Defaults to the transferappliance service endpoint for the
+            active universe domain.
 
          useronboarding
             Overrides API endpoint for gcloud onboarding command group.
-            Defaults to https://useronboarding.googleapis.com/
+            Defaults to the useronboarding service endpoint for the active
+            universe domain.
 
          vectorsearch
             Overrides API endpoint for gcloud vector-search command group.
-            Defaults to https://vectorsearch.googleapis.com/
+            Defaults to the vectorsearch service endpoint for the active
+            universe domain.
 
          vision
             Overrides API endpoint for gcloud ml vision command group. Defaults
-            to https://vision.googleapis.com/
+            to the vision service endpoint for the active universe domain.
 
          vmmigration
             Overrides API endpoint for gcloud migration vms command group.
-            Defaults to https://vmmigration.googleapis.com/
+            Defaults to the vmmigration service endpoint for the active
+            universe domain.
 
          vmwareengine
             Overrides API endpoint for gcloud vmware command group. Defaults to
-            https://vmwareengine.googleapis.com/
+            the vmwareengine service endpoint for the active universe domain.
 
          workflowexecutions
             Overrides API endpoint for gcloud workflows executions command
-            group. Defaults to https://workflowexecutions.googleapis.com/
+            group. Defaults to the workflowexecutions service endpoint for the
+            active universe domain.
 
          workflows
             Overrides API endpoint for gcloud workflows command group. Defaults
-            to https://workflows.googleapis.com/
+            to the workflows service endpoint for the active universe domain.
 
          workstations
             Overrides API endpoint for gcloud workstations command group.
-            Defaults to https://workstations.googleapis.com/
+            Defaults to the workstations service endpoint for the active
+            universe domain.
 
      app
          cloud_build_timeout
