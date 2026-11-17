@@ -5,12 +5,17 @@ on:
   schedule:
     - cron:  '35 4 * * *'
 
+permissions: {}
+
 jobs:
   scheduled:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
     - name: Check out this repo
-      uses: actions/checkout@v5
+      # zizmor: ignore[artipacked] credentials are needed to push the scraped help
+      uses: actions/checkout@v7.0.1
       with:
         fetch-depth: 0
     - name: Configure Git for commits
